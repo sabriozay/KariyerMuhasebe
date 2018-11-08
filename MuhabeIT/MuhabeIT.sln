@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuhabeIT_Destop", "MuhabeIT_Destop\MuhabeIT_Destop.csproj", "{392DAC55-75B4-4CD3-A8D8-9BEA56A454DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392DAC55-75B4-4CD3-A8D8-9BEA56A454DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392DAC55-75B4-4CD3-A8D8-9BEA56A454DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392DAC55-75B4-4CD3-A8D8-9BEA56A454DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392DAC55-75B4-4CD3-A8D8-9BEA56A454DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {251A4F7C-9F01-4291-9068-D2E1E1EF6980}
+	EndGlobalSection
+EndGlobal
