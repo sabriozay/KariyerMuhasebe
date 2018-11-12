@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnaSayfa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AnaSayfa.Designer.cs">
-      <DependentUpon>AnaSayfa.cs</DependentUpon>
-    </Compile>
     <Compile Include="Database\VeriTabani.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -62,9 +56,6 @@
     <Compile Include="Models\Login.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AnaSayfa.resx">
-      <DependentUpon>AnaSayfa.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

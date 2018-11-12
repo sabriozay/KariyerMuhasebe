@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MuhabeIT_Destop.Models
 {
-    public class Login
+    class Login
     {
-        public static String KullaniciAdi { get; set; }
-        public static String Sifre { get; set; }
-        public static String Yetki { get; set; }
-        public static String Departman { get; set; }
+        public String KullaniciAdi { get; set; }
+        public String Sifre { get; set; }
+        public String Yetki { get; set; }
+        public String Deparman { get; set; }
     }
 }
