@@ -7,18 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MuhabeIT_Destop.Models;
-
 
 namespace MuhabeIT_Destop
 {
-    public partial class AnaSayfa : Form
+    public partial class MüsteriEkle : Form
     {
-        public AnaSayfa()
+        public MüsteriEkle()
         {
             InitializeComponent();
-          
-
         }
     }
 }
