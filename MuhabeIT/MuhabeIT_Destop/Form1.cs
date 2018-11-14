@@ -33,15 +33,15 @@ namespace MuhabeIT_Destop
             }
             else
             {
-  DataRow veri = db.VeriSatiriCek("select * from Login where KullaniciAdi='"+ kadi + "' and Pw='"+pw+"'");
+            DataRow veri = db.VeriSatiriCek("select * from Login where KullaniciAdi='"+ kadi + "' and Pw='"+pw+"'");
                 if (veri==null)
                 {
                     MessageBox.Show("Kullanıcı Adınız veya Sifreniz Hatalı");
                 }
                 else
                 {
-                    label3.Text = "Giriş Başarılı Lütfen Bekleyiniz";
-    Login.KullaniciAdi = veri[1].ToString();
+            label3.Text = "Giriş Başarılı Lütfen Bekleyiniz";
+            Login.KullaniciAdi = veri[1].ToString();
             Login.Sifre = veri[2].ToString();
             Login.Yetki = veri[3].ToString();
             Login.Departman = veri[4].ToString();

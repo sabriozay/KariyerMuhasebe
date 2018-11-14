@@ -40,21 +40,22 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(83, 14);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(120, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(83, 49);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.PasswordChar = '*';
+            this.textBox2.Size = new System.Drawing.Size(120, 20);
             this.textBox2.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(83, 84);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 39);
+            this.button1.Size = new System.Drawing.Size(120, 39);
             this.button1.TabIndex = 2;
             this.button1.Text = "Giriş Yap";
             this.button1.UseVisualStyleBackColor = true;
@@ -92,6 +93,7 @@
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(259, 157);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

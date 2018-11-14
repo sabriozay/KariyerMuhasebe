@@ -9,3 +9,14 @@ C:\Users\PC\source\repos\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.cspr
 C:\Users\PC\source\repos\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.exe
 C:\Users\PC\source\repos\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.pdb
 C:\Users\PC\source\repos\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.AnaSayfa.resources
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.exe.config
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.exe
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.pdb
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.exe
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.pdb
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csprojResolveAssemblyReference.cache
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.AnaSayfa.resources
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Form1.resources
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.MüsteriEkle.resources
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Properties.Resources.resources
+C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csproj.GenerateResource.Cache

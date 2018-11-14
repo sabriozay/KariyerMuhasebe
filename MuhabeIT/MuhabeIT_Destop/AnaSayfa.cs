@@ -20,5 +20,11 @@ namespace MuhabeIT_Destop
           
 
         }
+        MüsteriEkle Eklemüsteri = new MüsteriEkle();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Eklemüsteri.ShowDialog();
+        }
     }
 }
