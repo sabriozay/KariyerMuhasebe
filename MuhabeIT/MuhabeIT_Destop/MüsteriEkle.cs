@@ -22,7 +22,7 @@ namespace MuhabeIT_Destop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (müsteriad.Text != "" && müsterisoyad.Text != "" && tel1.Text != "" && tel2.Text != "" && adres.Text != "")
+            if (müsteriad.Text != "" && müsterisoyad.Text != "" && müsteritcbox.Text !="" && tel1.Text != "" && tel2.Text != "" && adresbox.Text !="")
             {
                 MessageBox.Show("Kayıt Eklendi!");
             }
