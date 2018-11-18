@@ -70,6 +70,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC\Calisan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Calisan.Designer.cs">
+      <DependentUpon>Calisan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\Fatura.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\Fatura.Designer.cs">
+      <DependentUpon>Fatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\MüsteriEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\MüsteriEkle.Designer.cs">
+      <DependentUpon>MüsteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ÜrünEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\ÜrünEkle.Designer.cs">
+      <DependentUpon>ÜrünEkle.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +113,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UC\Calisan.resx">
+      <DependentUpon>Calisan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\Fatura.resx">
+      <DependentUpon>Fatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\MüsteriEkle.resx">
+      <DependentUpon>MüsteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\ÜrünEkle.resx">
+      <DependentUpon>ÜrünEkle.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -14,7 +14,7 @@ namespace MuhabeIT_Destop
 {
     public partial class MüsteriEkle : Form
     {
-        
+        VeriTabani db = new VeriTabani();
         public MüsteriEkle()
         {
             InitializeComponent();
@@ -22,8 +22,13 @@ namespace MuhabeIT_Destop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (müsteriad.Text != "" && müsterisoyad.Text != "" && müsteritcbox.Text !="" && tel1.Text != "" && tel2.Text != "" && adresbox.Text !="")
+
+
+            if (müsteriad.Text != "" && müsterisoyad.Text != "" && tel1.Text != "" &&  adres.Text != "")
             {
+                string sorgu = "Insert into Müsteri(Ad, Soyad, Telefon, Telefon2, Gsm, TC) values('"+müsteriad.Text+ "', '" + müsterisoyad.Text + "', '" + tel1.Text + "', '" + tel2.Text + "', '" + tel2.Text + "', '" + müsteriad.Text + "')";
+               int gelen= db.cmd(sorgu);
+                MessageBox.Show(gelen.ToString());
                 MessageBox.Show("Kayıt Eklendi!");
             }
             else
@@ -31,10 +36,6 @@ namespace MuhabeIT_Destop
                 MessageBox.Show("Lütfen alanları Boş Bırakmayınız...");
             }
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+      
     }
 }

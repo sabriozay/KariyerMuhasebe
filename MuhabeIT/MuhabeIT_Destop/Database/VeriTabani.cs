@@ -15,6 +15,8 @@ namespace MuhabeIT_Destop.Database
     // bir tablodki bir satırın bir veriri icin vericek methodu kullanilacak
 
 
+      
+
     class VeriTabani
     {
         private static string VeriDb;

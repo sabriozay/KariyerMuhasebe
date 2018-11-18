@@ -24,7 +24,27 @@ namespace MuhabeIT_Destop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Eklemüsteri.ShowDialog();
+            panel3.Controls.Clear();
+            var myControl = new MuhabeIT_Destop.UC.MüsteriEkle();
+            panel3.Controls.Add(myControl);
+
+          //  Eklemüsteri.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            this.Size = new Size(909, 629);
+            this.WindowState = System.Windows.Forms.FormWindowState.Normal;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel3.Controls.Clear();
+
+            var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
+            panel3.Controls.Add(ürüncontrol);
+
         }
     }
 }

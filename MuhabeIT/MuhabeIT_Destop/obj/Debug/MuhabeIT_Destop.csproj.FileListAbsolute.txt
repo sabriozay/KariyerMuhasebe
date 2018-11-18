@@ -20,3 +20,17 @@ C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\
 C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.MüsteriEkle.resources
 C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Properties.Resources.resources
 C:\Users\İslamTR\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csproj.GenerateResource.Cache
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.exe.config
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.exe
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.pdb
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csprojAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.AnaSayfa.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Form1.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.MüsteriEkle.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Properties.Resources.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csproj.GenerateResource.cache
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.exe
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.pdb
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UC.MüsteriEkle.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UC.ÜrünEkle.resources

@@ -7,8 +7,12 @@ using System.Threading.Tasks;
 namespace MuhabeIT_Destop.Models
 {
    public class MüsteriExtra
-    {
-        public string Adres { get; set; }
+    {  public string Adres { get; set; }
+        public MüsteriExtra(string madres)
+        {
+            this.Adres = madres;
+        }
+      
         
     }
 }
