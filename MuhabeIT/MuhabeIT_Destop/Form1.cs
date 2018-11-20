@@ -40,7 +40,7 @@ namespace MuhabeIT_Destop
                 }
                 else
                 {
-            label3.Text = "Giriş Başarılı Lütfen Bekleyiniz";
+            MessageBox.Show(kadi + " Giriş Başarılı Lütfen Bekleyiniz");
             Login.KullaniciAdi = veri[1].ToString();
             Login.Sifre = veri[2].ToString();
             Login.Yetki = veri[3].ToString();

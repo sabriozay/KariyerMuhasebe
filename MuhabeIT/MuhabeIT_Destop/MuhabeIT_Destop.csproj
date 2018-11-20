@@ -62,11 +62,11 @@
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Müsteri.cs" />
     <Compile Include="Models\MüsteriExtra.cs" />
-    <Compile Include="MüsteriEkle.cs">
+    <Compile Include="MusteriEkle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MüsteriEkle.Designer.cs">
-      <DependentUpon>MüsteriEkle.cs</DependentUpon>
+    <Compile Include="MusteriEkle.Designer.cs">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,8 +100,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MüsteriEkle.resx">
-      <DependentUpon>MüsteriEkle.cs</DependentUpon>
+    <EmbeddedResource Include="MusteriEkle.resx">
+      <DependentUpon>MusteriEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

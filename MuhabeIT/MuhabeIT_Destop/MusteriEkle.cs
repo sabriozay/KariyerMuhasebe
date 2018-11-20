@@ -12,10 +12,10 @@ using MuhabeIT_Destop.Models;
 
 namespace MuhabeIT_Destop
 {
-    public partial class MüsteriEkle : Form
+    public partial class MusteriEkle : Form
     {
         VeriTabani db = new VeriTabani();
-        public MüsteriEkle()
+        public MusteriEkle()
         {
             InitializeComponent();
         }

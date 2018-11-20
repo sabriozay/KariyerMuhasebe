@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MuhabeIT_Destop.Models;
+using MuhabeIT_Destop.UC;
 
 
 namespace MuhabeIT_Destop
@@ -20,30 +21,38 @@ namespace MuhabeIT_Destop
           
 
         }
-        MüsteriEkle Eklemüsteri = new MüsteriEkle();
-
-        private void button1_Click(object sender, EventArgs e)
+        MüsteriEkle Ekle = new MüsteriEkle();
+        ÜrünEkle ürün = new ÜrünEkle();
+        private void button1_Click_1(object sender, EventArgs e)
         {
             panel3.Controls.Clear();
-            var myControl = new MuhabeIT_Destop.UC.MüsteriEkle();
-            panel3.Controls.Add(myControl);
+            panel3.Controls.Add(Ekle);
+            Ekle.Show();
+            Ekle.Dock = DockStyle.Fill;
+            Ekle.BringToFront();
 
-          //  Eklemüsteri.ShowDialog();
+            //  Eklemüsteri.ShowDialog();
         }
-
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            panel3.Controls.Clear();
+            panel3.Controls.Add(ürün);
+            ürün.Show();
+            ürün.Dock = DockStyle.Fill;
+            ürün.BringToFront();
+            MessageBox.Show("Yaptımm!!! :D");
+            //panel3.Controls.Clear();
+            //var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
+            //panel3.Controls.Add(ürüncontrol);
+        }
         private void button3_Click(object sender, EventArgs e)
         {
             
-            this.Size = new Size(909, 629);
-            this.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void AnaSayfa_Load(object sender, EventArgs e)
         {
-            panel3.Controls.Clear();
-
-            var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
-            panel3.Controls.Add(ürüncontrol);
 
         }
     }

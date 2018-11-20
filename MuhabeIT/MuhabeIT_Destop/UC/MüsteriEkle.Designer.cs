@@ -47,137 +47,174 @@
             // 
             // müsteriad
             // 
+            this.müsteriad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.müsteriad.BackColor = System.Drawing.Color.PapayaWhip;
-            this.müsteriad.Location = new System.Drawing.Point(204, 74);
+            this.müsteriad.Location = new System.Drawing.Point(524, 72);
             this.müsteriad.Name = "müsteriad";
-            this.müsteriad.Size = new System.Drawing.Size(227, 20);
+            this.müsteriad.Size = new System.Drawing.Size(239, 20);
             this.müsteriad.TabIndex = 18;
             // 
             // AdresTxt
             // 
+            this.AdresTxt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.AdresTxt.BackColor = System.Drawing.Color.PapayaWhip;
-            this.AdresTxt.Location = new System.Drawing.Point(202, 152);
+            this.AdresTxt.Location = new System.Drawing.Point(524, 268);
             this.AdresTxt.Multiline = true;
             this.AdresTxt.Name = "AdresTxt";
-            this.AdresTxt.Size = new System.Drawing.Size(270, 100);
+            this.AdresTxt.Size = new System.Drawing.Size(239, 90);
             this.AdresTxt.TabIndex = 25;
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(132, 77);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(447, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.Size = new System.Drawing.Size(71, 13);
             this.label1.TabIndex = 16;
             this.label1.Text = "Müşteri Ad:";
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(155, 155);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(475, 268);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 19;
             this.label5.Text = "Adres:";
             // 
             // BtnEkle
             // 
+            this.BtnEkle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnEkle.BackColor = System.Drawing.Color.DimGray;
             this.BtnEkle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnEkle.FlatAppearance.BorderSize = 0;
             this.BtnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEkle.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnEkle.ForeColor = System.Drawing.Color.White;
-            this.BtnEkle.Location = new System.Drawing.Point(202, 290);
+            this.BtnEkle.Location = new System.Drawing.Point(533, 373);
             this.BtnEkle.Name = "BtnEkle";
-            this.BtnEkle.Size = new System.Drawing.Size(227, 52);
+            this.BtnEkle.Size = new System.Drawing.Size(162, 59);
             this.BtnEkle.TabIndex = 17;
-            this.BtnEkle.Text = "Müşteri Ekle";
+            this.BtnEkle.Text = "Müşteri Kaydet";
             this.BtnEkle.UseVisualStyleBackColor = false;
             this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
             // tel2
             // 
+            this.tel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tel2.BackColor = System.Drawing.Color.PapayaWhip;
-            this.tel2.Location = new System.Drawing.Point(549, 74);
+            this.tel2.Location = new System.Drawing.Point(524, 185);
             this.tel2.Name = "tel2";
-            this.tel2.Size = new System.Drawing.Size(227, 20);
+            this.tel2.Size = new System.Drawing.Size(239, 20);
             this.tel2.TabIndex = 26;
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(117, 117);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(428, 114);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 24;
             this.label2.Text = "Müşteri Soyad:";
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(483, 77);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(453, 188);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.Size = new System.Drawing.Size(65, 13);
             this.label4.TabIndex = 20;
             this.label4.Text = "Telefon-2:";
             // 
             // müsterisoyad
             // 
+            this.müsterisoyad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.müsterisoyad.BackColor = System.Drawing.Color.PapayaWhip;
-            this.müsterisoyad.Location = new System.Drawing.Point(204, 113);
+            this.müsterisoyad.Location = new System.Drawing.Point(524, 111);
             this.müsterisoyad.Name = "müsterisoyad";
-            this.müsterisoyad.Size = new System.Drawing.Size(227, 20);
+            this.müsterisoyad.Size = new System.Drawing.Size(239, 20);
             this.müsterisoyad.TabIndex = 30;
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.Color.PapayaWhip;
-            this.textBox1.Location = new System.Drawing.Point(204, 36);
+            this.textBox1.Location = new System.Drawing.Point(524, 34);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 20);
+            this.textBox1.Size = new System.Drawing.Size(239, 20);
             this.textBox1.TabIndex = 27;
             // 
             // textBox2
             // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.BackColor = System.Drawing.Color.PapayaWhip;
-            this.textBox2.Location = new System.Drawing.Point(549, 114);
+            this.textBox2.Location = new System.Drawing.Point(524, 225);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(227, 20);
+            this.textBox2.Size = new System.Drawing.Size(239, 20);
             this.textBox2.TabIndex = 28;
             // 
             // tel1
             // 
+            this.tel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tel1.BackColor = System.Drawing.Color.PapayaWhip;
-            this.tel1.Location = new System.Drawing.Point(549, 40);
+            this.tel1.Location = new System.Drawing.Point(524, 151);
             this.tel1.Name = "tel1";
-            this.tel1.Size = new System.Drawing.Size(227, 20);
+            this.tel1.Size = new System.Drawing.Size(239, 20);
             this.tel1.TabIndex = 29;
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(140, 39);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(487, 37);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(27, 13);
+            this.label6.Size = new System.Drawing.Size(31, 13);
             this.label6.TabIndex = 21;
             this.label6.Text = "TC :";
             // 
             // label7
             // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(485, 117);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(476, 228);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 13);
+            this.label7.Size = new System.Drawing.Size(42, 13);
             this.label7.TabIndex = 22;
             this.label7.Text = "GSM :";
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(485, 43);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(453, 154);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 23;
             this.label3.Text = "Telefon-1:";
             // 
@@ -201,7 +238,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Name = "MüsteriEkle";
-            this.Size = new System.Drawing.Size(893, 379);
+            this.Size = new System.Drawing.Size(1160, 457);
             this.ResumeLayout(false);
             this.PerformLayout();
 
