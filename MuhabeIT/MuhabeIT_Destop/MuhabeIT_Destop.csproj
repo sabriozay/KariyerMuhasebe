@@ -59,6 +59,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\CalisanModel.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Müsteri.cs" />
     <Compile Include="Models\MüsteriExtra.cs" />

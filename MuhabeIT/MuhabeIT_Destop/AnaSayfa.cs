@@ -55,5 +55,15 @@ namespace MuhabeIT_Destop
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            panel3.Controls.Clear();
+            panel3.Controls.Add(new Calisan());
+            ürün.Show();
+            ürün.Dock = DockStyle.Fill;
+            ürün.BringToFront();
+            MessageBox.Show("Yaptımm!!! :D");
+        }
     }
 }
