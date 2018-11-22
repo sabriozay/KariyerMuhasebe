@@ -14,11 +14,17 @@ namespace MuhabeIT_Destop.Models
         public String Departman { get; set; }
         public String Yetki { get; set; }
         public String Maas { get; set; }
+
+        public String Gsm { get; set; }
+
+        public String TC { get; set; }
+
+        public String Adres { get; set; }
         public CalisanModel()
         {
 
         }
-        public CalisanModel(int mId, String mAd, String mSoyadi, String mDepartman, String mYetki, String mMaas)
+        public CalisanModel(int mId, String mAd, String mSoyadi, String mDepartman, String mYetki, String mMaas,String mGsm,String mTC,String mAdres)
         {
             this.Id = mId;
             this.Ad = mAd;
@@ -26,6 +32,9 @@ namespace MuhabeIT_Destop.Models
             this.Departman = mDepartman;
             this.Yetki = mYetki;
             this.Maas = mMaas;
+            this.Gsm = mGsm;
+            this.TC = mTC;
+            this.Adres = mAdres;
         }
 
     }

@@ -36,6 +36,10 @@ namespace MuhabeIT_Destop
                 MessageBox.Show("Lütfen alanları Boş Bırakmayınız...");
             }
         }
-      
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
