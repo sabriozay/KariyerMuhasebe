@@ -69,7 +69,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(453, 52);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(348, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(349, 292);
             this.dataGridView1.TabIndex = 20;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -100,6 +100,7 @@
             this.button1.TabIndex = 19;
             this.button1.Text = "Kaydet";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // textBox5
             // 
