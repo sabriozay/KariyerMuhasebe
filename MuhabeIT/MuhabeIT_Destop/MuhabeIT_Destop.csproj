@@ -59,6 +59,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\CalisanModel.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Müsteri.cs" />
@@ -101,6 +107,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MusteriEkle.resx">
       <DependentUpon>MusteriEkle.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,7 +149,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\bor-alacak-cari-extre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-2829965_1920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafik.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

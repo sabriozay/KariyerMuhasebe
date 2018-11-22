@@ -23,6 +23,7 @@ namespace MuhabeIT_Destop
         }
         MüsteriEkle Ekle = new MüsteriEkle();
         ÜrünEkle ürün = new ÜrünEkle();
+        Calisan isci = new Calisan();
         private void button1_Click_1(object sender, EventArgs e)
         {
             panel3.Controls.Clear();
@@ -40,7 +41,7 @@ namespace MuhabeIT_Destop
             ürün.Show();
             ürün.Dock = DockStyle.Fill;
             ürün.BringToFront();
-            MessageBox.Show("Yaptımm!!! :D");
+            
             //panel3.Controls.Clear();
             //var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
             //panel3.Controls.Add(ürüncontrol);
@@ -59,11 +60,16 @@ namespace MuhabeIT_Destop
         private void button4_Click(object sender, EventArgs e)
         {
             panel3.Controls.Clear();
-            panel3.Controls.Add(new Calisan());
-            ürün.Show();
-            ürün.Dock = DockStyle.Fill;
-            ürün.BringToFront();
-            MessageBox.Show("Yaptımm!!! :D");
+            panel3.Controls.Add(isci);
+            isci.Show();
+            isci.Dock = DockStyle.Fill;
+            isci.BringToFront();
+           
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

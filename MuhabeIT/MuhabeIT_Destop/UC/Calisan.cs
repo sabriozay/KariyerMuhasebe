@@ -74,7 +74,7 @@ namespace MuhabeIT_Destop.UC
         {
             
 
-            MessageBox.Show("Kayıt Başarılı");
+           
         }
     }
 }
