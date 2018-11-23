@@ -34,7 +34,8 @@ namespace MuhabeIT_Destop.UC
             ürn.Aciklama = textBox6.Text;
             if (ürn.Ürün_Adi != "" && ürn.Ürün_Adeti != "" && ürn.Ürün_Birimi != "" && ürn.Ürün_Birim_Fiyat != "" && ürn.Ürün_SeriNo != "" && ürn.Aciklama != "")
             {
-                int gelen = db.cmd(Sorgu:)
+                string sorgu = "Insert into Ürünler(Ürün_Adi,Ürün_Adeti,Ürün_Birimi,Ürün_Birim_Fiyat,Ürün_SeriNo,Aciklama)Values('" + ürn.Ürün_Adi+"','" + ürn.Ürün_Adeti + "','" + ürn.Ürün_Birimi + "','" + ürn.Ürün_Birim_Fiyat + "','" + ürn.Ürün_SeriNo + "','" + ürn.Aciklama +"')";
+                int gelen = db.cmd(sorgu);
                 if (gelen == 1)
                 {
                     MessageBox.Show(ürn.Ürün_Adi + "Ürünü Kayıt Edildi");
