@@ -69,6 +69,7 @@
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Müsteri.cs" />
     <Compile Include="Models\MüsteriExtra.cs" />
+    <Compile Include="Models\Ürün.cs" />
     <Compile Include="MusteriEkle.cs">
       <SubType>Form</SubType>
     </Compile>
