@@ -156,7 +156,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(133, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1127, 100);
+            this.panel2.Size = new System.Drawing.Size(1127, 83);
             this.panel2.TabIndex = 4;
             // 
             // AnaSayfa

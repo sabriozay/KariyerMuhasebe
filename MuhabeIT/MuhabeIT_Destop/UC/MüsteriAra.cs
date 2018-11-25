@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace MuhabeIT_Destop.UC
 {
-    public partial class Fatura : UserControl
+    public partial class MüsteriAra : UserControl
     {
-        public Fatura()
+        public MüsteriAra()
         {
             InitializeComponent();
         }
-
-        private void müsteriCek()
-        {
-         
-        }
     }
-    
 }

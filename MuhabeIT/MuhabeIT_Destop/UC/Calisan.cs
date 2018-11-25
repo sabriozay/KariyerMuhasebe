@@ -20,6 +20,16 @@ namespace MuhabeIT_Destop.UC
         public Calisan()
         {
             InitializeComponent();
+
+            tabloyuGüncelle();
+        }
+
+        private void tabloyuGüncelle()
+        {
+            dataGridView1.Rows.Clear();
+            dataGridView1.Refresh();
+            Clist.Clear();
+
             DataTable dt = db.VeriTablosuCek("select * from Calisan");
             foreach (DataRow Satir in dt.Rows)
             {
@@ -41,7 +51,6 @@ namespace MuhabeIT_Destop.UC
                 dataGridView1.Rows.Add(item.Id, item.Ad, item.Soyad);
             }
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -55,24 +64,53 @@ namespace MuhabeIT_Destop.UC
             {
                 if (secilenId == item.Id)
                 {
-                    textBox1.Text = item.Ad;
-                    textBox2.Text = item.Soyad;
-                    textBox3.Text = item.Departman;
-                    textBox4.Text = item.Yetki;
-                    textBox5.Text = item.Maas;
-                    textBox6.Text = item.Gsm;
-                    textBox7.Text = item.TC;
-                    textBox8.Text = item.Adres;
+                    adtxt.Text = item.Ad;
+                    sydtxt.Text = item.Soyad;
+                    departtxt.Text = item.Departman;
+                    yetktxt.Text = item.Yetki;
+                    maastxt.Text = item.Maas;
+                    teltxt.Text = item.Gsm;
+                    tctxt.Text = item.TC;
+                    adrstxt.Text = item.Adres;
                     label6.Text = item.Id.ToString();
                    
 
                 }
             }
+           
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             
+            CalisanModel isci = new CalisanModel();
+            isci.Ad = adtxt.Text;
+            isci.Soyad = sydtxt.Text;
+            isci.Departman = departtxt.Text;
+            isci.Yetki = yetktxt.Text;
+            isci.Maas = maastxt.Text;
+            isci.Gsm = teltxt.Text;
+            isci.TC = tctxt.Text;
+            isci.Adres = adrstxt.Text;
+            if (isci.Ad !="" && isci.Soyad !="" && isci.Departman !="" && isci.Yetki !="" && isci.Maas !="" && isci.Gsm !="" && isci.TC !="" && isci.Adres !="")
+            {
+                int gelen = db.cmd("insert into Calisan (Ad,Soyadi,Departman,Yetki,Maas,Gsm,TC,Adres) Values ('" + isci.Ad + "','" +isci.Soyad+"','" +isci.Departman+"','"+isci.Yetki+"','"+isci.Maas+"','"+isci.Gsm+"','"+isci.TC+"','"+isci.Adres+"')");
+                if (gelen == 1)
+                {
+                    MessageBox.Show("Personel Başarıyla Eklendi");
+                    tabloyuGüncelle();
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Lütfen Bilgileri Kontrol Edin");
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Boş Alanları Doldurunuz");
+            }
 
            
         }

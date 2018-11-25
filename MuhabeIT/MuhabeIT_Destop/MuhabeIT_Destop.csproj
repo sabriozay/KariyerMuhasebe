@@ -59,6 +59,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\Secim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\Secim.Designer.cs">
+      <DependentUpon>Secim.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCbaslik\MüsteriSecenek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCbaslik\MüsteriSecenek.Designer.cs">
+      <DependentUpon>MüsteriSecenek.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC\Calisan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -89,6 +101,12 @@
     </Compile>
     <Compile Include="UC\Fatura.Designer.cs">
       <DependentUpon>Fatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\MüsteriAra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\MüsteriAra.Designer.cs">
+      <DependentUpon>MüsteriAra.cs</DependentUpon>
     </Compile>
     <Compile Include="UC\MüsteriEkle.cs">
       <SubType>UserControl</SubType>
@@ -108,6 +126,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\Secim.resx">
+      <DependentUpon>Secim.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Loading.resx">
       <DependentUpon>Loading.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,11 +145,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCbaslik\MüsteriSecenek.resx">
+      <DependentUpon>MüsteriSecenek.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC\Calisan.resx">
       <DependentUpon>Calisan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\Fatura.resx">
       <DependentUpon>Fatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\MüsteriAra.resx">
+      <DependentUpon>MüsteriAra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\MüsteriEkle.resx">
       <DependentUpon>MüsteriEkle.cs</DependentUpon>

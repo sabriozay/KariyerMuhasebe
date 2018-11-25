@@ -34,22 +34,22 @@
             this.Ad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Soyad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.maastxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.yetktxt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.departtxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.sydtxt = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.adtxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.teltxt = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.tctxt = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.adrstxt = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,13 +111,13 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // textBox5
+            // maastxt
             // 
-            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5.Location = new System.Drawing.Point(249, 192);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(226, 20);
-            this.textBox5.TabIndex = 14;
+            this.maastxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.maastxt.Location = new System.Drawing.Point(249, 192);
+            this.maastxt.Name = "maastxt";
+            this.maastxt.Size = new System.Drawing.Size(226, 20);
+            this.maastxt.TabIndex = 14;
             // 
             // label5
             // 
@@ -130,13 +130,13 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Maaş:";
             // 
-            // textBox4
+            // yetktxt
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(249, 153);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(226, 20);
-            this.textBox4.TabIndex = 15;
+            this.yetktxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.yetktxt.Location = new System.Drawing.Point(249, 153);
+            this.yetktxt.Name = "yetktxt";
+            this.yetktxt.Size = new System.Drawing.Size(226, 20);
+            this.yetktxt.TabIndex = 15;
             // 
             // label4
             // 
@@ -149,13 +149,13 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Yetki:";
             // 
-            // textBox3
+            // departtxt
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(249, 112);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(226, 20);
-            this.textBox3.TabIndex = 16;
+            this.departtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.departtxt.Location = new System.Drawing.Point(249, 112);
+            this.departtxt.Name = "departtxt";
+            this.departtxt.Size = new System.Drawing.Size(226, 20);
+            this.departtxt.TabIndex = 16;
             // 
             // label3
             // 
@@ -168,13 +168,13 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "Departman:";
             // 
-            // textBox2
+            // sydtxt
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(249, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(226, 20);
-            this.textBox2.TabIndex = 17;
+            this.sydtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.sydtxt.Location = new System.Drawing.Point(249, 75);
+            this.sydtxt.Name = "sydtxt";
+            this.sydtxt.Size = new System.Drawing.Size(226, 20);
+            this.sydtxt.TabIndex = 17;
             // 
             // label2
             // 
@@ -187,13 +187,13 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Soyad:";
             // 
-            // textBox1
+            // adtxt
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(249, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(226, 20);
-            this.textBox1.TabIndex = 18;
+            this.adtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.adtxt.Location = new System.Drawing.Point(249, 39);
+            this.adtxt.Name = "adtxt";
+            this.adtxt.Size = new System.Drawing.Size(226, 20);
+            this.adtxt.TabIndex = 18;
             // 
             // label1
             // 
@@ -217,13 +217,13 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "Gsm:";
             // 
-            // textBox6
+            // teltxt
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Location = new System.Drawing.Point(249, 230);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(226, 20);
-            this.textBox6.TabIndex = 14;
+            this.teltxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.teltxt.Location = new System.Drawing.Point(249, 230);
+            this.teltxt.Name = "teltxt";
+            this.teltxt.Size = new System.Drawing.Size(226, 20);
+            this.teltxt.TabIndex = 14;
             // 
             // label8
             // 
@@ -236,13 +236,13 @@
             this.label8.TabIndex = 9;
             this.label8.Text = "TC:";
             // 
-            // textBox7
+            // tctxt
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(249, 270);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(226, 20);
-            this.textBox7.TabIndex = 14;
+            this.tctxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tctxt.Location = new System.Drawing.Point(249, 270);
+            this.tctxt.Name = "tctxt";
+            this.tctxt.Size = new System.Drawing.Size(226, 20);
+            this.tctxt.TabIndex = 14;
             // 
             // label9
             // 
@@ -255,13 +255,13 @@
             this.label9.TabIndex = 9;
             this.label9.Text = "Adres:";
             // 
-            // textBox8
+            // adrstxt
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(249, 313);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(226, 20);
-            this.textBox8.TabIndex = 14;
+            this.adrstxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.adrstxt.Location = new System.Drawing.Point(249, 313);
+            this.adrstxt.Name = "adrstxt";
+            this.adrstxt.Size = new System.Drawing.Size(226, 20);
+            this.adrstxt.TabIndex = 14;
             // 
             // Calisan
             // 
@@ -270,21 +270,21 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.adrstxt);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.tctxt);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.teltxt);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.maastxt);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.yetktxt);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.departtxt);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.sydtxt);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.adtxt);
             this.Controls.Add(this.label1);
             this.Name = "Calisan";
             this.Size = new System.Drawing.Size(1160, 457);
@@ -302,21 +302,21 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Ad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Soyad;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox maastxt;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox yetktxt;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox departtxt;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox sydtxt;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox adtxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox teltxt;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox tctxt;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox adrstxt;
     }
 }
