@@ -37,7 +37,10 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -51,7 +54,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(133, 631);
+            this.panel1.Size = new System.Drawing.Size(127, 631);
             this.panel1.TabIndex = 1;
             // 
             // button5
@@ -62,7 +65,7 @@
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(0, 233);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(133, 75);
+            this.button5.Size = new System.Drawing.Size(127, 75);
             this.button5.TabIndex = 5;
             this.button5.Text = "Çıkış";
             this.button5.UseVisualStyleBackColor = true;
@@ -76,7 +79,7 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(0, 158);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(133, 75);
+            this.button4.Size = new System.Drawing.Size(127, 75);
             this.button4.TabIndex = 4;
             this.button4.Text = "Çalısan Ekle";
             this.button4.UseVisualStyleBackColor = true;
@@ -106,7 +109,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(0, 83);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 75);
+            this.button2.Size = new System.Drawing.Size(127, 75);
             this.button2.TabIndex = 2;
             this.button2.Text = "Ürün Ekle";
             this.button2.UseVisualStyleBackColor = true;
@@ -125,7 +128,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 83);
+            this.button1.Size = new System.Drawing.Size(127, 83);
             this.button1.TabIndex = 3;
             this.button1.Text = "Müsteri Ekle";
             this.button1.UseVisualStyleBackColor = true;
@@ -135,28 +138,52 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(133, 0);
+            this.panel3.Location = new System.Drawing.Point(127, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1127, 631);
+            this.panel3.Size = new System.Drawing.Size(1133, 631);
             this.panel3.TabIndex = 3;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(133, 531);
+            this.panel4.Location = new System.Drawing.Point(127, 531);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1127, 100);
+            this.panel4.Size = new System.Drawing.Size(1133, 100);
             this.panel4.TabIndex = 5;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(133, 0);
+            this.panel2.Location = new System.Drawing.Point(127, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1127, 83);
+            this.panel2.Size = new System.Drawing.Size(1133, 83);
             this.panel2.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1080, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 18);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "V1.0.0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(27, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(187, 18);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "By Desing KariyerMuhasebe";
             // 
             // AnaSayfa
             // 
@@ -175,6 +202,8 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AnaSayfa_Load);
             this.panel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -189,5 +218,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
