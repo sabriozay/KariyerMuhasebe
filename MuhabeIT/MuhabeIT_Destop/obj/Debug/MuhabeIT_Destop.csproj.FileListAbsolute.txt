@@ -84,3 +84,6 @@ C:\Users\WPS2000\Source\Repos\sabriozay\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop
 C:\Users\WPS2000\Source\Repos\sabriozay\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Loading.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Loading.resources
 C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Loading.resources
+C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Formlar.Secim.resources
+C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.MüsteriSecenek.resources
+C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UC.MüsteriAra.resources

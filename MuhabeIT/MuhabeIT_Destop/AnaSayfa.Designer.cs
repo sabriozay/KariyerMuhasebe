@@ -98,7 +98,6 @@
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Top;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderSize = 2;
             this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
