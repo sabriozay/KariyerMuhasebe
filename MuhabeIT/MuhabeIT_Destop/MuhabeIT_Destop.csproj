@@ -114,6 +114,12 @@
     <Compile Include="UC\MüsteriEkle.Designer.cs">
       <DependentUpon>MüsteriEkle.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC\ÜrünEkle.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -160,6 +166,9 @@
     <EmbeddedResource Include="UC\MüsteriEkle.resx">
       <DependentUpon>MüsteriEkle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC\ÜrünEkle.resx">
       <DependentUpon>ÜrünEkle.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +193,31 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\grafik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon\icons8_Add_Database_26px.png" />
+    <Content Include="icon\icons8_Add_User_Male_26px.png" />
+    <Content Include="icon\icons8_Administrative_Tools_26px.png" />
+    <Content Include="icon\icons8_Back_Arrow_26px.png" />
+    <Content Include="icon\icons8_Combo_Chart_26px.png" />
+    <Content Include="icon\icons8_Data_Recovery_26px.png" />
+    <Content Include="icon\icons8_Delete_26px.png" />
+    <Content Include="icon\icons8_Delete_Database_26px.png" />
+    <Content Include="icon\icons8_Denied_26px.png" />
+    <Content Include="icon\icons8_Empty_Trash_26px.png" />
+    <Content Include="icon\icons8_Find_User_Male_26px.png" />
+    <Content Include="icon\icons8_Flip_Horizontal_48px.png" />
+    <Content Include="icon\icons8_Forward_Button_26px.png" />
+    <Content Include="icon\icons8_Increase_48px.png" />
+    <Content Include="icon\icons8_Life_Cycle_26px.png" />
+    <Content Include="icon\icons8_Plesk_48px.png" />
+    <Content Include="icon\icons8_Process_26px.png" />
+    <Content Include="icon\icons8_Registration_26px.png" />
+    <Content Include="icon\icons8_Rotate_26px.png" />
+    <Content Include="icon\icons8_User_Account_26px.png" />
+    <Content Include="icon\icons8_Waste_26px.png" />
+    <Content Include="icon\icons8_Zoom_In_26px_1.png" />
+    <Content Include="icon\icons8_Zoom_Out_26px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
