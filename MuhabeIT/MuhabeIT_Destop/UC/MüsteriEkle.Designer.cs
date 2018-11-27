@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.müsteriad = new System.Windows.Forms.TextBox();
-            this.AdresTxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.BtnEkle = new System.Windows.Forms.Button();
@@ -43,6 +42,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // müsteriad
@@ -51,22 +56,10 @@
             this.müsteriad.BackColor = System.Drawing.Color.White;
             this.müsteriad.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.müsteriad.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.müsteriad.Location = new System.Drawing.Point(524, 72);
+            this.müsteriad.Location = new System.Drawing.Point(133, 63);
             this.müsteriad.Name = "müsteriad";
-            this.müsteriad.Size = new System.Drawing.Size(239, 23);
+            this.müsteriad.Size = new System.Drawing.Size(251, 23);
             this.müsteriad.TabIndex = 18;
-            // 
-            // AdresTxt
-            // 
-            this.AdresTxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AdresTxt.BackColor = System.Drawing.Color.White;
-            this.AdresTxt.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.AdresTxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.AdresTxt.Location = new System.Drawing.Point(524, 268);
-            this.AdresTxt.Multiline = true;
-            this.AdresTxt.Name = "AdresTxt";
-            this.AdresTxt.Size = new System.Drawing.Size(239, 90);
-            this.AdresTxt.TabIndex = 25;
             // 
             // label1
             // 
@@ -74,7 +67,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(436, 74);
+            this.label1.Location = new System.Drawing.Point(45, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 18);
             this.label1.TabIndex = 16;
@@ -86,7 +79,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(464, 267);
+            this.label5.Location = new System.Drawing.Point(73, 258);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 18);
             this.label5.TabIndex = 19;
@@ -100,9 +93,9 @@
             this.BtnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEkle.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnEkle.ForeColor = System.Drawing.Color.White;
-            this.BtnEkle.Location = new System.Drawing.Point(533, 373);
+            this.BtnEkle.Location = new System.Drawing.Point(133, 364);
             this.BtnEkle.Name = "BtnEkle";
-            this.BtnEkle.Size = new System.Drawing.Size(230, 59);
+            this.BtnEkle.Size = new System.Drawing.Size(251, 59);
             this.BtnEkle.TabIndex = 17;
             this.BtnEkle.Text = "Müşteri Kaydet";
             this.BtnEkle.UseVisualStyleBackColor = false;
@@ -114,9 +107,9 @@
             this.tel2.BackColor = System.Drawing.Color.White;
             this.tel2.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tel2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.tel2.Location = new System.Drawing.Point(524, 185);
+            this.tel2.Location = new System.Drawing.Point(133, 176);
             this.tel2.Name = "tel2";
-            this.tel2.Size = new System.Drawing.Size(239, 23);
+            this.tel2.Size = new System.Drawing.Size(251, 23);
             this.tel2.TabIndex = 26;
             // 
             // label2
@@ -125,7 +118,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(417, 113);
+            this.label2.Location = new System.Drawing.Point(26, 104);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 18);
             this.label2.TabIndex = 24;
@@ -137,7 +130,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(444, 187);
+            this.label4.Location = new System.Drawing.Point(53, 178);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 18);
             this.label4.TabIndex = 20;
@@ -149,9 +142,9 @@
             this.müsterisoyad.BackColor = System.Drawing.Color.White;
             this.müsterisoyad.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.müsterisoyad.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.müsterisoyad.Location = new System.Drawing.Point(524, 111);
+            this.müsterisoyad.Location = new System.Drawing.Point(133, 102);
             this.müsterisoyad.Name = "müsterisoyad";
-            this.müsterisoyad.Size = new System.Drawing.Size(239, 23);
+            this.müsterisoyad.Size = new System.Drawing.Size(251, 23);
             this.müsterisoyad.TabIndex = 30;
             // 
             // textBox1
@@ -160,9 +153,9 @@
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.textBox1.Location = new System.Drawing.Point(524, 34);
+            this.textBox1.Location = new System.Drawing.Point(133, 25);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(239, 23);
+            this.textBox1.Size = new System.Drawing.Size(251, 23);
             this.textBox1.TabIndex = 27;
             // 
             // textBox2
@@ -171,9 +164,9 @@
             this.textBox2.BackColor = System.Drawing.Color.White;
             this.textBox2.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.textBox2.Location = new System.Drawing.Point(524, 225);
+            this.textBox2.Location = new System.Drawing.Point(133, 216);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(239, 23);
+            this.textBox2.Size = new System.Drawing.Size(251, 23);
             this.textBox2.TabIndex = 28;
             // 
             // tel1
@@ -182,9 +175,9 @@
             this.tel1.BackColor = System.Drawing.Color.White;
             this.tel1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tel1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.tel1.Location = new System.Drawing.Point(524, 151);
+            this.tel1.Location = new System.Drawing.Point(133, 142);
             this.tel1.Name = "tel1";
-            this.tel1.Size = new System.Drawing.Size(239, 23);
+            this.tel1.Size = new System.Drawing.Size(251, 23);
             this.tel1.TabIndex = 29;
             // 
             // label6
@@ -193,7 +186,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(482, 34);
+            this.label6.Location = new System.Drawing.Point(91, 25);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 18);
             this.label6.TabIndex = 21;
@@ -205,7 +198,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(465, 227);
+            this.label7.Location = new System.Drawing.Point(74, 218);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 18);
             this.label7.TabIndex = 22;
@@ -217,43 +210,83 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(446, 151);
+            this.label3.Location = new System.Drawing.Point(55, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 18);
             this.label3.TabIndex = 23;
             this.label3.Text = "Telefon-1:";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(547, 38);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(465, 398);
+            this.dataGridView1.TabIndex = 31;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.müsteriad);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.tel1);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.BtnEkle);
+            this.groupBox1.Controls.Add(this.müsterisoyad);
+            this.groupBox1.Controls.Add(this.tel2);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.listBox1);
+            this.groupBox1.Location = new System.Drawing.Point(27, 13);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(481, 456);
+            this.groupBox1.TabIndex = 32;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Müsteri";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(354, 258);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 23);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(133, 258);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(251, 95);
+            this.listBox1.TabIndex = 33;
             // 
             // MüsteriEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.Controls.Add(this.müsteriad);
-            this.Controls.Add(this.AdresTxt);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.BtnEkle);
-            this.Controls.Add(this.tel2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.müsterisoyad);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.tel1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.dataGridView1);
             this.Name = "MüsteriEkle";
-            this.Size = new System.Drawing.Size(1160, 457);
+            this.Size = new System.Drawing.Size(1133, 496);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.TextBox müsteriad;
-        private System.Windows.Forms.TextBox AdresTxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BtnEkle;
@@ -267,5 +300,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

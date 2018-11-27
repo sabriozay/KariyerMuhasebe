@@ -108,3 +108,8 @@ C:\Users\MusTMaGNuS\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\ob
 C:\Users\MusTMaGNuS\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.exe
 C:\Users\MusTMaGNuS\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.pdb
 C:\Users\MusTMaGNuS\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UC.UserControl1.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Formlar.Secim.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.MüsteriSecenek.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UC.MüsteriAra.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.CalisanSecenek.resources
+C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.ÜrünSecenek.resources

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MuhabeIT_Destop.UC
+namespace MuhabeIT_Destop.UCbaslik
 {
-    public partial class UserControl1 : UserControl
+    public partial class ÜrünSecenek : UserControl
     {
-        public UserControl1()
+        public ÜrünSecenek()
         {
             InitializeComponent();
         }

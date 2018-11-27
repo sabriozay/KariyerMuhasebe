@@ -11,7 +11,7 @@ using MuhabeIT_Destop.Models;
 using MuhabeIT_Destop.UC;
 
 
-namespace MuhabeIT_Destop
+ namespace MuhabeIT_Destop
 {
     public partial class AnaSayfa : Form
     {
@@ -26,21 +26,43 @@ namespace MuhabeIT_Destop
         Calisan isci = new Calisan();
         private void button1_Click_1(object sender, EventArgs e)
         {
-            panel3.Controls.Clear();
-            panel3.Controls.Add(Ekle);
-            Ekle.Show();
-            Ekle.Dock = DockStyle.Fill;
-            Ekle.BringToFront();
+
+            panelkoy(panel2,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
+            //panel3.Controls.Clear();
+            //panel3.Controls.Add(Ekle);
+            //Ekle.Show();
+            //Ekle.Dock = DockStyle.Fill;
+            //Ekle.BringToFront();
 
             //  Eklemüsteri.ShowDialog();
         }
-        private void button2_Click_1(object sender, EventArgs e)
+       public void panelkoy(Panel IlkPanel,UserControl gelen)
+        {
+            IlkPanel.Controls.Clear();
+            IlkPanel.Controls.Add(gelen);
+            gelen.Show();
+            gelen.Dock = DockStyle.Fill;
+            gelen.BringToFront();
+
+        }
+        public void panelkoy2(UserControl gelen)
         {
             panel3.Controls.Clear();
-            panel3.Controls.Add(ürün);
-            ürün.Show();
-            ürün.Dock = DockStyle.Fill;
-            ürün.BringToFront();
+            panel3.Controls.Add(gelen);
+            gelen.Show();
+            gelen.Dock = DockStyle.Fill;
+            gelen.BringToFront();
+
+        }
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            panelkoy(panel3,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
+            
+            //panel3.Controls.Clear();
+            //panel3.Controls.Add(ürün);
+            //ürün.Show();
+            //ürün.Dock = DockStyle.Fill;
+            //ürün.BringToFront();
             
             //panel3.Controls.Clear();
             //var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
