@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MuhabeIT_Destop.Database;
+using MuhabeIT_Destop.Models;
+using System.Data.SqlClient;
 
 namespace MuhabeIT_Destop
 {
@@ -15,6 +18,16 @@ namespace MuhabeIT_Destop
         public Login()
         {
             InitializeComponent();
+        }
+        
+        
+        AnaSayfa home = new AnaSayfa();
+        SqlCommand komut = new SqlCommand();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+          
+           
         }
     }
 }

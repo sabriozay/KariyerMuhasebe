@@ -16,7 +16,7 @@ namespace MuhabeIT_Destop
         {
             InitializeComponent();
         }
-       
+        Login giris = new Login();
 
         private void zaman_Tick(object sender, EventArgs e)
         {
@@ -24,8 +24,8 @@ namespace MuhabeIT_Destop
             if (progressBar1.Value == 100)//%100 olmasını sağlayan koşul
             {
                 zaman.Stop();//zamanlayıcı 100 de 100 olduğunda form1 kapatması için gerekiyor
-                this.Hide();               
-                
+                this.Hide();
+                giris.Show();
 
             }
         }
