@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Calisanbttn = new System.Windows.Forms.Button();
+            this.Ürünbttn = new System.Windows.Forms.Button();
+            this.Müsteribttn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            panel3 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -44,70 +44,70 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Navy;
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.Calisanbttn);
+            this.panel1.Controls.Add(this.Ürünbttn);
+            this.panel1.Controls.Add(this.Müsteribttn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(127, 631);
             this.panel1.TabIndex = 1;
             // 
-            // button4
+            // Calisanbttn
             // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(0, 158);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(127, 75);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Çalısan Ekle";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Calisanbttn.BackColor = System.Drawing.Color.Transparent;
+            this.Calisanbttn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Calisanbttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Calisanbttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Calisanbttn.ForeColor = System.Drawing.Color.White;
+            this.Calisanbttn.Location = new System.Drawing.Point(0, 158);
+            this.Calisanbttn.Name = "Calisanbttn";
+            this.Calisanbttn.Size = new System.Drawing.Size(127, 75);
+            this.Calisanbttn.TabIndex = 4;
+            this.Calisanbttn.Text = "Çalısan Ekle";
+            this.Calisanbttn.UseVisualStyleBackColor = false;
+            this.Calisanbttn.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button2
+            // Ürünbttn
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 83);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 75);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Ürün Ekle";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.Ürünbttn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Ürünbttn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Ürünbttn.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.Ürünbttn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
+            this.Ürünbttn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.Ürünbttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Ürünbttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Ürünbttn.ForeColor = System.Drawing.Color.White;
+            this.Ürünbttn.Location = new System.Drawing.Point(0, 83);
+            this.Ürünbttn.Name = "Ürünbttn";
+            this.Ürünbttn.Size = new System.Drawing.Size(127, 75);
+            this.Ürünbttn.TabIndex = 2;
+            this.Ürünbttn.Text = "Ürün Ekle";
+            this.Ürünbttn.UseVisualStyleBackColor = false;
+            this.Ürünbttn.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // button1
+            // Müsteribttn
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 83);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Müsteri";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.Müsteribttn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Müsteribttn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Müsteribttn.FlatAppearance.BorderSize = 2;
+            this.Müsteribttn.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.Müsteribttn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
+            this.Müsteribttn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.Müsteribttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Müsteribttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Müsteribttn.ForeColor = System.Drawing.Color.White;
+            this.Müsteribttn.Location = new System.Drawing.Point(0, 0);
+            this.Müsteribttn.Name = "Müsteribttn";
+            this.Müsteribttn.Size = new System.Drawing.Size(127, 83);
+            this.Müsteribttn.TabIndex = 3;
+            this.Müsteribttn.Text = "Müsteri";
+            this.Müsteribttn.UseVisualStyleBackColor = false;
+            this.Müsteribttn.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.panel4.BackColor = System.Drawing.Color.Blue;
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -149,11 +149,11 @@
             // 
             // panel3
             // 
-            panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            panel3.Location = new System.Drawing.Point(127, 83);
-            panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(1133, 496);
-            panel3.TabIndex = 6;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(127, 83);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1133, 496);
+            this.panel3.TabIndex = 6;
             // 
             // AnaSayfa
             // 
@@ -161,15 +161,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1260, 631);
-            this.Controls.Add(panel3);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "AnaSayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AnaSayfa";
+            this.Text = "Ana Sayfa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AnaSayfa_FormClosed);
             this.Load += new System.EventHandler(this.AnaSayfa_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -180,13 +181,13 @@
 
         #endregion
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Ürünbttn;
+        private System.Windows.Forms.Button Müsteribttn;
+        private System.Windows.Forms.Button Calisanbttn;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-      static public System.Windows.Forms.Panel panel3;
+        public System.Windows.Forms.Panel panel3;
     }
 }

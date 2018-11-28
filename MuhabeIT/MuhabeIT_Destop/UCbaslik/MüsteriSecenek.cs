@@ -17,12 +17,12 @@ namespace MuhabeIT_Destop.UCbaslik
         {
             InitializeComponent();
         }
-
+        AnaSayfa ana = new AnaSayfa();
         private void button1_Click(object sender, EventArgs e)
         {
             MuhabeIT_Destop.UC.MüsteriEkle ekle = new MuhabeIT_Destop.UC.MüsteriEkle();
-                  AnaSayfa.panel3.Controls.Clear();
-            AnaSayfa.panel3.Controls.Add(ekle);
+            ana.panel3.Controls.Clear();
+            ana.panel3.Controls.Add(ekle);
             ekle.Dock = DockStyle.Fill;
             ekle.BringToFront();
             Degiskenler.müsterimod = 1;

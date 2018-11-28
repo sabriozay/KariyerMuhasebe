@@ -68,11 +68,7 @@ using MuhabeIT_Destop.UC;
             //var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
             //panel3.Controls.Add(ürüncontrol);
         }
-        private void button3_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
+       
 
         private void AnaSayfa_Load(object sender, EventArgs e)
         {
@@ -88,8 +84,7 @@ using MuhabeIT_Destop.UC;
             isci.BringToFront();
            
         }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void AnaSayfa_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
