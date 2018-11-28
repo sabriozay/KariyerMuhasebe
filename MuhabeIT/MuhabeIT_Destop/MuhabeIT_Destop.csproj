@@ -56,9 +56,7 @@
     <Compile Include="Classlar\Degiskenler.cs" />
     <Compile Include="Classlar\SeciliMüsteri.cs" />
     <Compile Include="Database\VeriTabani.cs" />
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Login.cs" />
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>

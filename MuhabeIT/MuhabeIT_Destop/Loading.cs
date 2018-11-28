@@ -16,7 +16,7 @@ namespace MuhabeIT_Destop
         {
             InitializeComponent();
         }
-        public Login giris = new Login();
+       
 
         private void zaman_Tick(object sender, EventArgs e)
         {
@@ -25,7 +25,7 @@ namespace MuhabeIT_Destop
             {
                 zaman.Stop();//zamanlayıcı 100 de 100 olduğunda form1 kapatması için gerekiyor
                 this.Hide();               
-                giris.ShowDialog();
+                
 
             }
         }
