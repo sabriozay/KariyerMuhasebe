@@ -65,6 +65,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(45, 65);
@@ -77,6 +78,7 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label5.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(73, 258);
@@ -93,9 +95,9 @@
             this.BtnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEkle.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnEkle.ForeColor = System.Drawing.Color.White;
-            this.BtnEkle.Location = new System.Drawing.Point(133, 364);
+            this.BtnEkle.Location = new System.Drawing.Point(133, 371);
             this.BtnEkle.Name = "BtnEkle";
-            this.BtnEkle.Size = new System.Drawing.Size(251, 59);
+            this.BtnEkle.Size = new System.Drawing.Size(251, 52);
             this.BtnEkle.TabIndex = 17;
             this.BtnEkle.Text = "Müşteri Kaydet";
             this.BtnEkle.UseVisualStyleBackColor = false;
@@ -116,6 +118,7 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(26, 104);
@@ -128,6 +131,7 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label4.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(53, 178);
@@ -184,6 +188,7 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label6.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(91, 25);
@@ -196,6 +201,7 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label7.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(74, 218);
@@ -208,6 +214,7 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label3.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(55, 142);
@@ -218,14 +225,17 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(547, 38);
+            this.dataGridView1.Location = new System.Drawing.Point(547, 13);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(465, 398);
+            this.dataGridView1.Size = new System.Drawing.Size(545, 456);
             this.dataGridView1.TabIndex = 31;
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label6);
@@ -243,6 +253,8 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.listBox1);
+            this.groupBox1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(27, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(481, 456);
@@ -252,27 +264,32 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(354, 258);
+            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(390, 258);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 23);
+            this.button1.Size = new System.Drawing.Size(35, 30);
             this.button1.TabIndex = 32;
             this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
             this.listBox1.Location = new System.Drawing.Point(133, 258);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(251, 95);
+            this.listBox1.Size = new System.Drawing.Size(251, 109);
             this.listBox1.TabIndex = 33;
             // 
             // MüsteriEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "MüsteriEkle";

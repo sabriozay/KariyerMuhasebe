@@ -96,6 +96,7 @@
             this.ürünekle.Size = new System.Drawing.Size(33, 33);
             this.ürünekle.TabIndex = 15;
             this.ürünekle.UseVisualStyleBackColor = true;
+            this.ürünekle.Click += new System.EventHandler(this.ürünekle_Click);
             // 
             // ÜrünSecenek
             // 

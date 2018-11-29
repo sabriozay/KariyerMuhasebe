@@ -11,6 +11,8 @@ using MuhabeIT_Destop.Database;
 using MuhabeIT_Destop.Models;
 using System.Data.SqlClient;
 
+
+
 namespace MuhabeIT_Destop
 {
     public partial class Login : Form
@@ -22,11 +24,22 @@ namespace MuhabeIT_Destop
         
         
         AnaSayfa home = new AnaSayfa();
-        SqlCommand komut = new SqlCommand();
-
+        VeriTabani DB = new VeriTabani();
         private void button1_Click(object sender, EventArgs e)
         {
-          
+            string user = textBox1.Text;
+            string pass = textBox2.Text;
+            if (textBox1.Text !="" && textBox2.Text !="")
+            {
+                DB.cmd("Select * From Login Where KullaniciAdi='" + user + "' and Pw='" + pass + "'");
+                MessageBox.Show(user + " Giriş Başarılı Ana Sayfaya Yönlendiriliyorsunuz");
+                home.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Giriş Başarısız");
+            }
            
         }
     }

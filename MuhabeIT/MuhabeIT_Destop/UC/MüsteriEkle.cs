@@ -113,7 +113,7 @@ namespace MuhabeIT_Destop.UC
         private void button1_Click(object sender, EventArgs e)
         {
             String adres = Interaction.InputBox("Adres Giriniz","Adres Ekle","",0,0);
-            MessageBox.Show(adres+" Eklendi");
+            MessageBox.Show(adres + " Eklendi");
             listBox1.Items.Add(adres);
         }
     }

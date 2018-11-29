@@ -37,13 +37,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Navy;
+            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.Calisanbttn);
             this.panel1.Controls.Add(this.Ürünbttn);
             this.panel1.Controls.Add(this.Müsteribttn);
@@ -101,13 +103,13 @@
             this.Müsteribttn.Name = "Müsteribttn";
             this.Müsteribttn.Size = new System.Drawing.Size(127, 83);
             this.Müsteribttn.TabIndex = 3;
-            this.Müsteribttn.Text = "Müsteri";
+            this.Müsteribttn.Text = "Müşteri";
             this.Müsteribttn.UseVisualStyleBackColor = false;
             this.Müsteribttn.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Blue;
+            this.panel4.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -140,7 +142,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Blue;
+            this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(127, 0);
             this.panel2.Name = "panel2";
@@ -154,6 +156,21 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1133, 496);
             this.panel3.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 233);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 75);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Faturalandır";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // AnaSayfa
             // 
@@ -189,5 +206,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button1;
     }
 }
