@@ -31,15 +31,32 @@ namespace MuhabeIT_Destop
             string pass = textBox2.Text;
             if (textBox1.Text !="" && textBox2.Text !="")
             {
-                DB.cmd("Select * From Login Where KullaniciAdi='" + user + "' and Pw='" + pass + "'");
-                MessageBox.Show(user + " Giriş Başarılı Ana Sayfaya Yönlendiriliyorsunuz");
-                home.Show();
-
+                String Sorgu=("Select * From Login Where KullaniciAdi='" + user.ToString() + "' and Pw='" + pass.ToString() + "'");
+                int gelen = DB.cmd(Sorgu);
+                if (gelen==1)
+                {
+                    MessageBox.Show(user + " Giriş Başarılı Ana Sayfaya Yönlendiriliyorsunuz");
+                    home.Show();                  
+                }
+                else
+                {
+                    MessageBox.Show("Giriş Başarısız");
+                }
             }
             else
             {
-                MessageBox.Show("Giriş Başarısız");
+                MessageBox.Show("Lütfen ID ve Şifreyi Boş Bırakmayınız...!");
             }
+           
+        }
+
+        private void Login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();             
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
            
         }
     }
