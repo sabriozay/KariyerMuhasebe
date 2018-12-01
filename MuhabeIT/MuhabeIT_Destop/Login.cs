@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MuhabeIT_Destop.Database;
 using MuhabeIT_Destop.Models;
-using System.Data.SqlClient;
+
 
 
 
@@ -17,37 +17,37 @@ namespace MuhabeIT_Destop
 {
     public partial class Login : Form
     {
+        
+        VeriTabani db = new VeriTabani();
         public Login()
         {
             InitializeComponent();
         }
-        
-        
-        AnaSayfa home = new AnaSayfa();
-        VeriTabani DB = new VeriTabani();
+  
         private void button1_Click(object sender, EventArgs e)
         {
-            string user = textBox1.Text;
-            string pass = textBox2.Text;
-            if (textBox1.Text !="" && textBox2.Text !="")
+            string kadi = textBox1.Text;
+            string pw = textBox2.Text;
+            if (kadi == "" && pw == "")
             {
-                String Sorgu=("Select * From Login Where KullaniciAdi='" + user.ToString() + "' and Pw='" + pass.ToString() + "'");
-                int gelen = DB.cmd(Sorgu);
-                if (gelen==1)
-                {
-                    MessageBox.Show(user + " Giriş Başarılı Ana Sayfaya Yönlendiriliyorsunuz");
-                    home.Show();                  
-                }
-                else
-                {
-                    MessageBox.Show("Giriş Başarısız");
-                }
+                MessageBox.Show("Lütfen Boş Alan Bırakmayınız");
             }
             else
             {
-                MessageBox.Show("Lütfen ID ve Şifreyi Boş Bırakmayınız...!");
+                DataRow veri = db.VeriSatiriCek("Select * From Login where KullaniciAdi='" + kadi + "' and Pw='" + pw + "'");
+                if (veri == null)
+                {
+                    MessageBox.Show("Kullanıcı Adınız veya Sifreniz Hatalı!");
+                }
+                else
+                {
+                    MessageBox.Show(kadi + " Giriş Başarılı Ana Sayfaya Yönlendiriliyorsunuz");
+                    this.Hide();
+                    AnaSayfa home = new AnaSayfa();
+                    home.Show();
+                }
             }
-           
+
         }
 
         private void Login_FormClosed(object sender, FormClosedEventArgs e)
