@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MuhabeIT_Destop.UC;
 
 namespace MuhabeIT_Destop.UCbaslik
 {
@@ -16,12 +15,6 @@ namespace MuhabeIT_Destop.UCbaslik
         public ÜrünSecenek()
         {
             InitializeComponent();
-        }
-        ÜrünEkle ekle = new ÜrünEkle();
-
-        private void ürünekle_Click(object sender, EventArgs e)
-        {
-            ekle.Show();
         }
     }
 }

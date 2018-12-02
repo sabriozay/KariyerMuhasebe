@@ -58,6 +58,7 @@ C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\D
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.pdb
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csprojResolveAssemblyReference.cache
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.AnaSayfa.resources
+C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Form1.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.MusteriEkle.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Properties.Resources.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UC.Calisan.resources
@@ -112,6 +113,3 @@ C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\
 C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UC.MüsteriAra.resources
 C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.CalisanSecenek.resources
 C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.ÜrünSecenek.resources
-C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.CalisanSecenek.resources
-C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.ÜrünSecenek.resources
-C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Login.resources

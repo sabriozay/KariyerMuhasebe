@@ -24,18 +24,17 @@ using MuhabeIT_Destop.UC;
         MüsteriEkle Ekle = new MüsteriEkle();
         ÜrünEkle ürün = new ÜrünEkle();
         Calisan isci = new Calisan();
-        Fatura ftr = new Fatura();
         private void button1_Click_1(object sender, EventArgs e)
         {
 
             panelkoy(panel2,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
-            panel3.Controls.Clear();
-            panel3.Controls.Add(Ekle);
-            Ekle.Show();
-            Ekle.Dock = DockStyle.Fill;
-            Ekle.BringToFront();
+            //panel3.Controls.Clear();
+            //panel3.Controls.Add(Ekle);
+            //Ekle.Show();
+            //Ekle.Dock = DockStyle.Fill;
+            //Ekle.BringToFront();
 
-            
+            //  Eklemüsteri.ShowDialog();
         }
        public void panelkoy(Panel IlkPanel,UserControl gelen)
         {
@@ -58,18 +57,22 @@ using MuhabeIT_Destop.UC;
         private void button2_Click_1(object sender, EventArgs e)
         {
             panelkoy(panel3,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
-
+            
             //panel3.Controls.Clear();
             //panel3.Controls.Add(ürün);
             //ürün.Show();
             //ürün.Dock = DockStyle.Fill;
             //ürün.BringToFront();
-
+            
             //panel3.Controls.Clear();
             //var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
             //panel3.Controls.Add(ürüncontrol);
         }
-
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
 
         private void AnaSayfa_Load(object sender, EventArgs e)
         {
@@ -85,18 +88,10 @@ using MuhabeIT_Destop.UC;
             isci.BringToFront();
            
         }
-        private void AnaSayfa_FormClosed(object sender, FormClosedEventArgs e)
+
+        private void button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            panel3.Controls.Clear();
-            panel3.Controls.Add(ftr);
-            ftr.Show();
-            ftr.Dock = DockStyle.Fill;
-            ftr.BringToFront();
         }
     }
 }

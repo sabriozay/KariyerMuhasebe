@@ -28,85 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ürünara = new System.Windows.Forms.Button();
-            this.ürünsil = new System.Windows.Forms.Button();
-            this.ürüngüncelle = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.ürünekle = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // ürünara
+            // button5
             // 
-            this.ürünara.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database__3_;
-            this.ürünara.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ürünara.FlatAppearance.BorderSize = 0;
-            this.ürünara.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ürünara.Location = new System.Drawing.Point(232, 22);
-            this.ürünara.Name = "ürünara";
-            this.ürünara.Size = new System.Drawing.Size(33, 33);
-            this.ürünara.TabIndex = 19;
-            this.ürünara.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.ürünara.UseVisualStyleBackColor = true;
+            this.button5.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database__3_;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Location = new System.Drawing.Point(184, 22);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(33, 33);
+            this.button5.TabIndex = 19;
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // ürünsil
+            // button4
             // 
-            this.ürünsil.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database__2_;
-            this.ürünsil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ürünsil.FlatAppearance.BorderSize = 0;
-            this.ürünsil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ürünsil.Location = new System.Drawing.Point(183, 22);
-            this.ürünsil.Name = "ürünsil";
-            this.ürünsil.Size = new System.Drawing.Size(33, 33);
-            this.ürünsil.TabIndex = 18;
-            this.ürünsil.UseVisualStyleBackColor = true;
+            this.button4.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database__2_;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Location = new System.Drawing.Point(145, 22);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(33, 33);
+            this.button4.TabIndex = 18;
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // ürüngüncelle
+            // button3
             // 
-            this.ürüngüncelle.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database;
-            this.ürüngüncelle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ürüngüncelle.FlatAppearance.BorderSize = 0;
-            this.ürüngüncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ürüngüncelle.Location = new System.Drawing.Point(135, 22);
-            this.ürüngüncelle.Name = "ürüngüncelle";
-            this.ürüngüncelle.Size = new System.Drawing.Size(33, 33);
-            this.ürüngüncelle.TabIndex = 17;
-            this.ürüngüncelle.UseVisualStyleBackColor = true;
+            this.button3.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Location = new System.Drawing.Point(106, 22);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(33, 33);
+            this.button3.TabIndex = 17;
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database__1_;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(80, 22);
+            this.button2.Location = new System.Drawing.Point(67, 22);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(33, 33);
             this.button2.TabIndex = 16;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // ürünekle
+            // button1
             // 
-            this.ürünekle.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database__4_;
-            this.ürünekle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ürünekle.FlatAppearance.BorderSize = 0;
-            this.ürünekle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ürünekle.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.ürünekle.Location = new System.Drawing.Point(28, 22);
-            this.ürünekle.Name = "ürünekle";
-            this.ürünekle.Size = new System.Drawing.Size(33, 33);
-            this.ürünekle.TabIndex = 15;
-            this.ürünekle.UseVisualStyleBackColor = true;
-            this.ürünekle.Click += new System.EventHandler(this.ürünekle_Click);
+            this.button1.BackgroundImage = global::MuhabeIT_Destop.Properties.Resources.database__4_;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button1.Location = new System.Drawing.Point(28, 22);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(33, 33);
+            this.button1.TabIndex = 15;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ÜrünSecenek
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.ürünara);
-            this.Controls.Add(this.ürünsil);
-            this.Controls.Add(this.ürüngüncelle);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.ürünekle);
+            this.Controls.Add(this.button1);
             this.Name = "ÜrünSecenek";
             this.Size = new System.Drawing.Size(1127, 83);
             this.ResumeLayout(false);
@@ -115,10 +103,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button ürünara;
-        private System.Windows.Forms.Button ürünsil;
-        private System.Windows.Forms.Button ürüngüncelle;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button ürünekle;
+        private System.Windows.Forms.Button button1;
     }
 }

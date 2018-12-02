@@ -16,16 +16,16 @@ namespace MuhabeIT_Destop
         {
             InitializeComponent();
         }
-        Login giris = new Login();
+        public Form1 giris = new Form1();
 
         private void zaman_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(2);// yüklenme zaman hızı
+            progressBar1.Increment(3);// yüklenme zaman hızı
             if (progressBar1.Value == 100)//%100 olmasını sağlayan koşul
             {
                 zaman.Stop();//zamanlayıcı 100 de 100 olduğunda form1 kapatması için gerekiyor
-                this.Hide();
-                giris.Show();
+                this.Hide();               
+                giris.ShowDialog();
 
             }
         }

@@ -56,6 +56,12 @@
     <Compile Include="Classlar\Degiskenler.cs" />
     <Compile Include="Classlar\SeciliMüsteri.cs" />
     <Compile Include="Database\VeriTabani.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\Secim.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,12 +73,6 @@
     </Compile>
     <Compile Include="Loading.Designer.cs">
       <DependentUpon>Loading.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\CalisanModel.cs" />
     <Compile Include="Models\Login.cs" />
@@ -138,14 +138,14 @@
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\Secim.resx">
       <DependentUpon>Secim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loading.resx">
       <DependentUpon>Loading.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MusteriEkle.resx">
       <DependentUpon>MusteriEkle.cs</DependentUpon>
@@ -230,7 +230,6 @@
     <Content Include="icon\icons8_Waste_26px.png" />
     <Content Include="icon\icons8_Zoom_In_26px_1.png" />
     <Content Include="icon\icons8_Zoom_Out_26px.png" />
-    <None Include="Resources\cari.png" />
     <None Include="Resources\database.png" />
     <None Include="Resources\database %283%29.png" />
     <None Include="Resources\database %282%29.png" />

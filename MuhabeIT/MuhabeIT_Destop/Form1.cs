@@ -12,10 +12,10 @@ using MuhabeIT_Destop.Models;
 
 namespace MuhabeIT_Destop
 {
-    public partial class Login : Form
+    public partial class Form1 : Form
     {
         VeriTabani db = new VeriTabani();
-        public Login()
+        public Form1()
         {
             
             InitializeComponent();
@@ -41,10 +41,10 @@ namespace MuhabeIT_Destop
                 else
                 {
             MessageBox.Show(kadi + " Giriş Başarılı Lütfen Bekleyiniz");
-                    Models.Login.KullaniciAdi = veri[1].ToString();
-                    Models.Login.Sifre = veri[2].ToString();
-                    Models.Login.Yetki = veri[3].ToString();
-                    Models.Login.Departman = veri[4].ToString();
+            Login.KullaniciAdi = veri[1].ToString();
+            Login.Sifre = veri[2].ToString();
+            Login.Yetki = veri[3].ToString();
+            Login.Departman = veri[4].ToString();
                     Form frm = new AnaSayfa();
                     this.Hide();
                     frm.Show();
