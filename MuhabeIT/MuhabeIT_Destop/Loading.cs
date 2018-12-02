@@ -20,7 +20,7 @@ namespace MuhabeIT_Destop
 
         private void zaman_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(3);// yüklenme zaman hızı
+            progressBar1.Increment(10);// yüklenme zaman hızı
             if (progressBar1.Value == 100)//%100 olmasını sağlayan koşul
             {
                 zaman.Stop();//zamanlayıcı 100 de 100 olduğunda form1 kapatması için gerekiyor

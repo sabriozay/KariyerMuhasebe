@@ -89,9 +89,19 @@ using MuhabeIT_Destop.UC;
            
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void AnaSayfa_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Fatura ftr = new Fatura();
+            panel3.Controls.Clear();
+            panel3.Controls.Add(ftr);
+            ftr.Show();
+            ftr.Dock = DockStyle.Fill;
+            ftr.BringToFront();
         }
     }
 }

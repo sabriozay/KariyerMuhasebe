@@ -33,7 +33,7 @@ namespace MuhabeIT_Destop
             }
             else
             {
-            DataRow veri = db.VeriSatiriCek("select * from Login where KullaniciAdi='"+ kadi + "' and Pw='"+pw+"'");
+            DataRow veri = db.VeriSatiriCek("Select * From Login where KullaniciAdi='"+ kadi + "' and Pw='"+pw+"'");
                 if (veri==null)
                 {
                     MessageBox.Show("Kullanıcı Adınız veya Sifreniz Hatalı");
@@ -45,9 +45,9 @@ namespace MuhabeIT_Destop
             Login.Sifre = veri[2].ToString();
             Login.Yetki = veri[3].ToString();
             Login.Departman = veri[4].ToString();
-                    Form frm = new AnaSayfa();
-                    this.Hide();
-                    frm.Show();
+             Form frm = new AnaSayfa();
+             this.Hide();
+              frm.Show();
                 }
         
             }
