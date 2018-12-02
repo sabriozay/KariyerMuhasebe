@@ -56,14 +56,14 @@ using MuhabeIT_Destop.UC;
         }
         private void button2_Click_1(object sender, EventArgs e)
         {
-            panelkoy(panel3,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
-            
-            //panel3.Controls.Clear();
-            //panel3.Controls.Add(ürün);
-            //ürün.Show();
-            //ürün.Dock = DockStyle.Fill;
-            //ürün.BringToFront();
-            
+            //panelkoy(panel3,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
+
+            panel3.Controls.Clear();
+            panel3.Controls.Add(ürün);
+            ürün.Show();
+            ürün.Dock = DockStyle.Fill;
+            ürün.BringToFront();
+
             //panel3.Controls.Clear();
             //var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
             //panel3.Controls.Add(ürüncontrol);

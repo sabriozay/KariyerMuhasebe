@@ -15,12 +15,13 @@ namespace MuhabeIT_Destop.UC
 
     public partial class Calisan : UserControl
     {
+        DataTable tablo = new DataTable();
         VeriTabani db = new VeriTabani();
         List<CalisanModel> Clist = new List<CalisanModel>();
         public Calisan()
         {
             InitializeComponent();
-
+            tablo.Clear();
             tabloyuGüncelle();
         }
 
@@ -50,12 +51,7 @@ namespace MuhabeIT_Destop.UC
             {
                 dataGridView1.Rows.Add(item.Id, item.Ad, item.Soyad);
             }
-        }
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        }   
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int secilenId = int.Parse(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
@@ -73,8 +69,6 @@ namespace MuhabeIT_Destop.UC
                     tctxt.Text = item.TC;
                     adrstxt.Text = item.Adres;
                     label6.Text = item.Id.ToString();
-                   
-
                 }
             }
            
@@ -82,7 +76,6 @@ namespace MuhabeIT_Destop.UC
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
             CalisanModel isci = new CalisanModel();
             isci.Ad = adtxt.Text;
             isci.Soyad = sydtxt.Text;
@@ -111,7 +104,10 @@ namespace MuhabeIT_Destop.UC
             {
                 MessageBox.Show("Lütfen Boş Alanları Doldurunuz");
             }
+        }
 
+        private void Calisan_Load(object sender, EventArgs e)
+        {
            
         }
     }

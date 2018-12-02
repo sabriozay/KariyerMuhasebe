@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MuhabeIT_Destop.Classlar;
+using MuhabeIT_Destop.UC;
 
 namespace MuhabeIT_Destop.UCbaslik
 {
@@ -18,15 +19,15 @@ namespace MuhabeIT_Destop.UCbaslik
             InitializeComponent();
         }
         AnaSayfa home = new AnaSayfa();
-
+        MüsteriEkle ekle = new MüsteriEkle();
         private void button1_Click(object sender, EventArgs e)
         {
-            MuhabeIT_Destop.UC.MüsteriEkle ekle = new MuhabeIT_Destop.UC.MüsteriEkle();
             home.panel3.Controls.Clear();
             home.panel3.Controls.Add(ekle);
             ekle.Dock = DockStyle.Fill;
             ekle.BringToFront();
             Degiskenler.müsterimod = 1;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -47,6 +48,6 @@ namespace MuhabeIT_Destop.UCbaslik
         private void button5_Click(object sender, EventArgs e)
         {
             Degiskenler.müsterimod = 4;
-        }
+        }   
     }
 }

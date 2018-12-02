@@ -104,26 +104,29 @@
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.FlatAppearance.BorderSize = 3;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(249, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(226, 58);
             this.button1.TabIndex = 19;
             this.button1.Text = "Kaydet";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // maastxt
             // 
             this.maastxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.maastxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.maastxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.maastxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.maastxt.Location = new System.Drawing.Point(249, 192);
             this.maastxt.Name = "maastxt";
-            this.maastxt.Size = new System.Drawing.Size(226, 22);
+            this.maastxt.Size = new System.Drawing.Size(226, 26);
             this.maastxt.TabIndex = 14;
             // 
             // label5
@@ -142,11 +145,11 @@
             // yetktxt
             // 
             this.yetktxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.yetktxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yetktxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.yetktxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.yetktxt.Location = new System.Drawing.Point(249, 153);
             this.yetktxt.Name = "yetktxt";
-            this.yetktxt.Size = new System.Drawing.Size(226, 22);
+            this.yetktxt.Size = new System.Drawing.Size(226, 26);
             this.yetktxt.TabIndex = 15;
             // 
             // label4
@@ -165,11 +168,11 @@
             // departtxt
             // 
             this.departtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.departtxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.departtxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.departtxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.departtxt.Location = new System.Drawing.Point(249, 112);
             this.departtxt.Name = "departtxt";
-            this.departtxt.Size = new System.Drawing.Size(226, 22);
+            this.departtxt.Size = new System.Drawing.Size(226, 26);
             this.departtxt.TabIndex = 16;
             // 
             // label3
@@ -188,11 +191,11 @@
             // sydtxt
             // 
             this.sydtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.sydtxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.sydtxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sydtxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.sydtxt.Location = new System.Drawing.Point(249, 75);
             this.sydtxt.Name = "sydtxt";
-            this.sydtxt.Size = new System.Drawing.Size(226, 22);
+            this.sydtxt.Size = new System.Drawing.Size(226, 26);
             this.sydtxt.TabIndex = 17;
             // 
             // label2
@@ -211,11 +214,11 @@
             // adtxt
             // 
             this.adtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.adtxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.adtxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.adtxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.adtxt.Location = new System.Drawing.Point(249, 39);
             this.adtxt.Name = "adtxt";
-            this.adtxt.Size = new System.Drawing.Size(226, 22);
+            this.adtxt.Size = new System.Drawing.Size(226, 26);
             this.adtxt.TabIndex = 18;
             // 
             // label1
@@ -247,11 +250,11 @@
             // teltxt
             // 
             this.teltxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.teltxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.teltxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.teltxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.teltxt.Location = new System.Drawing.Point(249, 230);
             this.teltxt.Name = "teltxt";
-            this.teltxt.Size = new System.Drawing.Size(226, 22);
+            this.teltxt.Size = new System.Drawing.Size(226, 26);
             this.teltxt.TabIndex = 14;
             // 
             // label8
@@ -270,11 +273,11 @@
             // tctxt
             // 
             this.tctxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tctxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tctxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tctxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.tctxt.Location = new System.Drawing.Point(249, 270);
             this.tctxt.Name = "tctxt";
-            this.tctxt.Size = new System.Drawing.Size(226, 22);
+            this.tctxt.Size = new System.Drawing.Size(226, 26);
             this.tctxt.TabIndex = 14;
             // 
             // label9
@@ -293,11 +296,11 @@
             // adrstxt
             // 
             this.adrstxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.adrstxt.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.adrstxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.adrstxt.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.adrstxt.Location = new System.Drawing.Point(249, 313);
             this.adrstxt.Name = "adrstxt";
-            this.adrstxt.Size = new System.Drawing.Size(226, 22);
+            this.adrstxt.Size = new System.Drawing.Size(226, 26);
             this.adrstxt.TabIndex = 14;
             // 
             // Calisan
@@ -326,6 +329,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Calisan";
             this.Size = new System.Drawing.Size(1160, 457);
+            this.Load += new System.EventHandler(this.Calisan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -102,7 +102,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "MüsteriSecenek";
-            this.Size = new System.Drawing.Size(1127, 83);
+            this.Size = new System.Drawing.Size(1127, 83);            
             this.ResumeLayout(false);
 
         }
