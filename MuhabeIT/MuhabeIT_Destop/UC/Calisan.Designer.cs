@@ -50,6 +50,7 @@
             this.tctxt = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.adrstxt = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,7 +114,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(249, 356);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(226, 58);
+            this.button1.Size = new System.Drawing.Size(106, 58);
             this.button1.TabIndex = 19;
             this.button1.Text = "Kaydet";
             this.button1.UseVisualStyleBackColor = false;
@@ -303,11 +304,30 @@
             this.adrstxt.Size = new System.Drawing.Size(226, 26);
             this.adrstxt.TabIndex = 14;
             // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button2.FlatAppearance.BorderSize = 3;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(361, 356);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 58);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "Kayıt Göster";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Calisan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
@@ -360,5 +380,6 @@
         private System.Windows.Forms.TextBox tctxt;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox adrstxt;
+        private System.Windows.Forms.Button button2;
     }
 }
