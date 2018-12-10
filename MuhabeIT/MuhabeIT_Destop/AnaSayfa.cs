@@ -28,6 +28,7 @@ using MuhabeIT_Destop.UC;
         {
 
             panelkoy(panel2,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
+            
             //panel3.Controls.Clear();
             //panel3.Controls.Add(Ekle);
             //Ekle.Show();
