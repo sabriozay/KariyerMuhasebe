@@ -18,17 +18,11 @@ namespace MuhabeIT_Destop.UCbaslik
         {
             InitializeComponent();
         }
-        AnaSayfa home = new AnaSayfa();
-        
+
         MüsteriEkle ekle = new MüsteriEkle();
+        AnaSayfa home = new AnaSayfa();
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            home.panel3.Controls.Clear();
-            home.panel3.Controls.Add(ekle);
-            ekle.Dock = DockStyle.Fill;
-            ekle.BringToFront();
-            Degiskenler.müsterimod = 1;
 
         }
 
