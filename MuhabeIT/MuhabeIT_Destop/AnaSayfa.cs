@@ -105,5 +105,10 @@ using MuhabeIT_Destop.UC;
             ftr.Dock = DockStyle.Fill;
             ftr.BringToFront();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

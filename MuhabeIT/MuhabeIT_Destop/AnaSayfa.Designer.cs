@@ -31,21 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaSayfa));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.Faturabttn = new System.Windows.Forms.Button();
             this.Calisanbttn = new System.Windows.Forms.Button();
             this.Ürünbttn = new System.Windows.Forms.Button();
             this.Müsteribttn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Orange;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.Faturabttn);
             this.panel1.Controls.Add(this.Calisanbttn);
             this.panel1.Controls.Add(this.Ürünbttn);
@@ -59,35 +58,11 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Orange;
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(157, 583);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1131, 52);
             this.panel4.TabIndex = 5;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 18);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "By Desing KariyerMuhasebe";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(1082, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 18);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "V1.0.0";
             // 
             // panel2
             // 
@@ -105,6 +80,23 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1131, 500);
             this.panel3.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::MuhabeIT_Destop.Properties.Resources.logout;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 75);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Çıkış";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Faturabttn
             // 
@@ -206,8 +198,6 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AnaSayfa_FormClosed);
             this.Load += new System.EventHandler(this.AnaSayfa_Load);
             this.panel1.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -219,9 +209,8 @@
         private System.Windows.Forms.Button Calisanbttn;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button Faturabttn;
+        private System.Windows.Forms.Button button1;
     }
 }
