@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MuhabeIT_Destop.Classlar;
 using MuhabeIT_Destop.UC;
 
+
 namespace MuhabeIT_Destop.UCbaslik
 {
     public partial class MüsteriSecenek : UserControl
@@ -23,7 +24,7 @@ namespace MuhabeIT_Destop.UCbaslik
         AnaSayfa home = new AnaSayfa();
         private void button1_Click(object sender, EventArgs e)
         {
-
+            ekle.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

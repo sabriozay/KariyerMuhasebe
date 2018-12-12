@@ -19,7 +19,7 @@ namespace MuhabeIT_Destop.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,6 +63,16 @@ namespace MuhabeIT_Destop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3dcd0bedc912608e330216c154f8afdd {
+            get {
+                object obj = ResourceManager.GetObject("3dcd0bedc912608e330216c154f8afdd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap abstract_2829965_1920 {
             get {
                 object obj = ResourceManager.GetObject("abstract-2829965_1920", resourceCulture);
@@ -76,6 +86,16 @@ namespace MuhabeIT_Destop.Properties {
         internal static System.Drawing.Bitmap bor_alacak_cari_extre {
             get {
                 object obj = ResourceManager.GetObject("bor-alacak-cari-extre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cari {
+            get {
+                object obj = ResourceManager.GetObject("cari", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +146,16 @@ namespace MuhabeIT_Destop.Properties {
         internal static System.Drawing.Bitmap database__4_ {
             get {
                 object obj = ResourceManager.GetObject("database (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dropbox_icon_32 {
+            get {
+                object obj = ResourceManager.GetObject("dropbox-icon-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +246,16 @@ namespace MuhabeIT_Destop.Properties {
         internal static System.Drawing.Bitmap icons8_Registration_26px {
             get {
                 object obj = ResourceManager.GetObject("icons8_Registration_26px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap indir {
+            get {
+                object obj = ResourceManager.GetObject("indir", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

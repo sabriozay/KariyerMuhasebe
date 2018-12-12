@@ -31,14 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaSayfa));
             this.panel1 = new System.Windows.Forms.Panel();
             this.Faturabttn = new System.Windows.Forms.Button();
-            this.Calisanbttn = new System.Windows.Forms.Button();
-            this.Ürünbttn = new System.Windows.Forms.Button();
-            this.Müsteribttn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.Calisanbttn = new System.Windows.Forms.Button();
+            this.Ürünbttn = new System.Windows.Forms.Button();
+            this.Müsteribttn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +53,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(127, 631);
+            this.panel1.Size = new System.Drawing.Size(157, 631);
             this.panel1.TabIndex = 1;
             // 
             // Faturabttn
@@ -65,63 +65,11 @@
             this.Faturabttn.ForeColor = System.Drawing.Color.White;
             this.Faturabttn.Location = new System.Drawing.Point(0, 233);
             this.Faturabttn.Name = "Faturabttn";
-            this.Faturabttn.Size = new System.Drawing.Size(127, 75);
+            this.Faturabttn.Size = new System.Drawing.Size(157, 75);
             this.Faturabttn.TabIndex = 5;
             this.Faturabttn.Text = "Faturalandır";
             this.Faturabttn.UseVisualStyleBackColor = false;
             this.Faturabttn.Click += new System.EventHandler(this.button3_Click_1);
-            // 
-            // Calisanbttn
-            // 
-            this.Calisanbttn.BackColor = System.Drawing.Color.Transparent;
-            this.Calisanbttn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Calisanbttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Calisanbttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Calisanbttn.ForeColor = System.Drawing.Color.White;
-            this.Calisanbttn.Location = new System.Drawing.Point(0, 158);
-            this.Calisanbttn.Name = "Calisanbttn";
-            this.Calisanbttn.Size = new System.Drawing.Size(127, 75);
-            this.Calisanbttn.TabIndex = 4;
-            this.Calisanbttn.Text = "Çalısan Ekle";
-            this.Calisanbttn.UseVisualStyleBackColor = false;
-            this.Calisanbttn.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // Ürünbttn
-            // 
-            this.Ürünbttn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Ürünbttn.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.Ürünbttn.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.Ürünbttn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
-            this.Ürünbttn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
-            this.Ürünbttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Ürünbttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Ürünbttn.ForeColor = System.Drawing.Color.White;
-            this.Ürünbttn.Location = new System.Drawing.Point(0, 83);
-            this.Ürünbttn.Name = "Ürünbttn";
-            this.Ürünbttn.Size = new System.Drawing.Size(127, 75);
-            this.Ürünbttn.TabIndex = 2;
-            this.Ürünbttn.Text = "Ürün Ekle";
-            this.Ürünbttn.UseVisualStyleBackColor = false;
-            this.Ürünbttn.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // Müsteribttn
-            // 
-            this.Müsteribttn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Müsteribttn.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.Müsteribttn.FlatAppearance.BorderSize = 2;
-            this.Müsteribttn.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.Müsteribttn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
-            this.Müsteribttn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
-            this.Müsteribttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Müsteribttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Müsteribttn.ForeColor = System.Drawing.Color.White;
-            this.Müsteribttn.Location = new System.Drawing.Point(0, 0);
-            this.Müsteribttn.Name = "Müsteribttn";
-            this.Müsteribttn.Size = new System.Drawing.Size(127, 83);
-            this.Müsteribttn.TabIndex = 3;
-            this.Müsteribttn.Text = "Müşteri";
-            this.Müsteribttn.UseVisualStyleBackColor = false;
-            this.Müsteribttn.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel4
             // 
@@ -129,9 +77,9 @@
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(127, 579);
+            this.panel4.Location = new System.Drawing.Point(157, 579);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1133, 52);
+            this.panel4.Size = new System.Drawing.Size(1103, 52);
             this.panel4.TabIndex = 5;
             // 
             // label2
@@ -160,18 +108,81 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(127, 0);
+            this.panel2.Location = new System.Drawing.Point(157, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1133, 83);
+            this.panel2.Size = new System.Drawing.Size(1103, 83);
             this.panel2.TabIndex = 4;
             // 
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(127, 83);
+            this.panel3.Location = new System.Drawing.Point(157, 83);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1133, 496);
+            this.panel3.Size = new System.Drawing.Size(1103, 496);
             this.panel3.TabIndex = 6;
+            // 
+            // Calisanbttn
+            // 
+            this.Calisanbttn.BackColor = System.Drawing.Color.Transparent;
+            this.Calisanbttn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Calisanbttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Calisanbttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Calisanbttn.ForeColor = System.Drawing.Color.White;
+            this.Calisanbttn.Image = global::MuhabeIT_Destop.Properties.Resources.indir;
+            this.Calisanbttn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Calisanbttn.Location = new System.Drawing.Point(0, 158);
+            this.Calisanbttn.Name = "Calisanbttn";
+            this.Calisanbttn.Size = new System.Drawing.Size(157, 75);
+            this.Calisanbttn.TabIndex = 4;
+            this.Calisanbttn.Text = "Çalısan Ekle";
+            this.Calisanbttn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Calisanbttn.UseVisualStyleBackColor = false;
+            this.Calisanbttn.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // Ürünbttn
+            // 
+            this.Ürünbttn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Ürünbttn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Ürünbttn.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.Ürünbttn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
+            this.Ürünbttn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.Ürünbttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Ürünbttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Ürünbttn.ForeColor = System.Drawing.Color.White;
+            this.Ürünbttn.Image = global::MuhabeIT_Destop.Properties.Resources.dropbox_icon_32;
+            this.Ürünbttn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Ürünbttn.Location = new System.Drawing.Point(0, 83);
+            this.Ürünbttn.Name = "Ürünbttn";
+            this.Ürünbttn.Size = new System.Drawing.Size(157, 75);
+            this.Ürünbttn.TabIndex = 2;
+            this.Ürünbttn.Text = "   Ürün Ekle";
+            this.Ürünbttn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Ürünbttn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Ürünbttn.UseVisualStyleBackColor = false;
+            this.Ürünbttn.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // Müsteribttn
+            // 
+            this.Müsteribttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Müsteribttn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Müsteribttn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Müsteribttn.FlatAppearance.BorderSize = 2;
+            this.Müsteribttn.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.Müsteribttn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
+            this.Müsteribttn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.Müsteribttn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Müsteribttn.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Müsteribttn.ForeColor = System.Drawing.Color.White;
+            this.Müsteribttn.Image = global::MuhabeIT_Destop.Properties.Resources._3dcd0bedc912608e330216c154f8afdd;
+            this.Müsteribttn.Location = new System.Drawing.Point(0, 0);
+            this.Müsteribttn.Name = "Müsteribttn";
+            this.Müsteribttn.Size = new System.Drawing.Size(157, 83);
+            this.Müsteribttn.TabIndex = 3;
+            this.Müsteribttn.Text = " Müşteri Ekle";
+            this.Müsteribttn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Müsteribttn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Müsteribttn.UseVisualStyleBackColor = false;
+            this.Müsteribttn.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // AnaSayfa
             // 

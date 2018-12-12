@@ -117,7 +117,7 @@ namespace MuhabeIT_Destop.UC
 
             if (mst.Ad != "" && mst.Soyad != "" && mst.Tel1 != "" && mst.Tc != "")
             {
-                string sorgu = "Update Müsteri Set  Ad='" + mst.Ad + "',Soyad='" + mst.Soyad + "',Telefon= '" + mst.Tel1 + "',Telefon3= '" + mst.Tel2 + "', Gsm='" + mst.Gsm + "', TC='" + mst.Tc + "' Where  ";
+                string sorgu = "Delete Müsteri Set  Ad='" + mst.Ad + "',Soyad='" + mst.Soyad + "',Telefon= '" + mst.Tel1 + "',Telefon3= '" + mst.Tel2 + "', Gsm='" + mst.Gsm + "', TC='" + mst.Tc + "' Where  ";
                 int gelen = db.cmd(sorgu);
                 if (gelen == 1)
                 {
@@ -157,7 +157,7 @@ namespace MuhabeIT_Destop.UC
         private void button1_Click(object sender, EventArgs e)
         {
             String adres = Interaction.InputBox("Adres Giriniz","Adres Ekle","",0,0);
-            MessageBox.Show(adres+" Eklendi");
+            MessageBox.Show(adres + " Kaydedildi!");
             listBox1.Items.Add(adres);
         }
     }

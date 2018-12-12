@@ -231,6 +231,10 @@
     <Content Include="icon\icons8_Waste_26px.png" />
     <Content Include="icon\icons8_Zoom_In_26px_1.png" />
     <Content Include="icon\icons8_Zoom_Out_26px.png" />
+    <None Include="Resources\indir.png" />
+    <None Include="Resources\dropbox-icon-32.png" />
+    <None Include="Resources\3dcd0bedc912608e330216c154f8afdd.png" />
+    <None Include="Resources\cari1.png" />
     <None Include="Resources\database.png" />
     <None Include="Resources\database %283%29.png" />
     <None Include="Resources\database %282%29.png" />
