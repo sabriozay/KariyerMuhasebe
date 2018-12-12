@@ -127,6 +127,9 @@
   <data name="upcoming-work" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\upcoming-work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bor-alacak-cari-extre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bor-alacak-cari-extre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_Denied_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_Denied_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,8 +148,8 @@
   <data name="database (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\database (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="invoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\invoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_Add_Database_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_Add_Database_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +166,9 @@
   <data name="customers1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\customers1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="database (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="indir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\indir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -175,17 +181,14 @@
   <data name="icons8_Add_User_Male_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8_Add_User_Male_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cari" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cari1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bor-alacak-cari-extre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bor-alacak-cari-extre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="invoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3dcd0bedc912608e330216c154f8afdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3dcd0bedc912608e330216c154f8afdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="database (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\database (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cari1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="database" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,7 +196,7 @@
   <data name="database (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\database (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ara.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

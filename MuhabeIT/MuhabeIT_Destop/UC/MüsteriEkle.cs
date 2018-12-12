@@ -15,6 +15,7 @@ namespace MuhabeIT_Destop.UC
 {
     public partial class MüsteriEkle : UserControl
     {
+        
         VeriTabani db = new VeriTabani();
         Müsteri mst = new Müsteri();
         public MüsteriEkle()

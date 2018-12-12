@@ -231,6 +231,8 @@
     <Content Include="icon\icons8_Waste_26px.png" />
     <Content Include="icon\icons8_Zoom_In_26px_1.png" />
     <Content Include="icon\icons8_Zoom_Out_26px.png" />
+    <None Include="Resources\ara.png" />
+    <None Include="Resources\logout.png" />
     <None Include="Resources\customers1.png" />
     <None Include="Resources\upcoming-work.png" />
     <None Include="Resources\customers.png" />

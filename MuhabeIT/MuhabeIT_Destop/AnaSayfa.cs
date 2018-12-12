@@ -21,6 +21,7 @@ using MuhabeIT_Destop.UC;
           
 
         }
+        MüsteriAra Ara = new MüsteriAra();
         MüsteriEkle Ekle = new MüsteriEkle();
         ÜrünEkle ürün = new ÜrünEkle();
         Calisan isci = new Calisan();
@@ -106,7 +107,17 @@ using MuhabeIT_Destop.UC;
             ftr.BringToFront();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+      
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel3.Controls.Clear();
+            panel3.Controls.Add(Ara);
+            Ara.Show();
+            Ara.Dock = DockStyle.Fill;
+            Ara.BringToFront();
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
         {
             Application.Exit();
         }

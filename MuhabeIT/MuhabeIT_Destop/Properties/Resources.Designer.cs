@@ -93,6 +93,16 @@ namespace MuhabeIT_Destop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ara {
+            get {
+                object obj = ResourceManager.GetObject("ara", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bor_alacak_cari_extre {
             get {
                 object obj = ResourceManager.GetObject("bor-alacak-cari-extre", resourceCulture);
