@@ -24,7 +24,7 @@ namespace MuhabeIT_Destop.UCbaslik
         AnaSayfa home = new AnaSayfa();
         private void button1_Click(object sender, EventArgs e)
         {
-            ekle.Show();
+            Degiskenler.müsterimod = 1;
         }
 
         private void button2_Click(object sender, EventArgs e)

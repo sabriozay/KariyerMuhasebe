@@ -63,6 +63,16 @@ namespace MuhabeIT_Destop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10673_man_in_tuxedo_icon {
+            get {
+                object obj = ResourceManager.GetObject("10673-man-in-tuxedo-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3dcd0bedc912608e330216c154f8afdd {
             get {
                 object obj = ResourceManager.GetObject("3dcd0bedc912608e330216c154f8afdd", resourceCulture);
@@ -96,6 +106,26 @@ namespace MuhabeIT_Destop.Properties {
         internal static System.Drawing.Bitmap cari {
             get {
                 object obj = ResourceManager.GetObject("cari", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap customers {
+            get {
+                object obj = ResourceManager.GetObject("customers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap customers1 {
+            get {
+                object obj = ResourceManager.GetObject("customers1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +286,26 @@ namespace MuhabeIT_Destop.Properties {
         internal static System.Drawing.Bitmap indir {
             get {
                 object obj = ResourceManager.GetObject("indir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap invoice {
+            get {
+                object obj = ResourceManager.GetObject("invoice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upcoming_work {
+            get {
+                object obj = ResourceManager.GetObject("upcoming-work", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
