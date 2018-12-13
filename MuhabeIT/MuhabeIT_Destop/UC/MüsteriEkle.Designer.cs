@@ -66,7 +66,7 @@
             this.müsteriad.ForeColor = System.Drawing.Color.Orange;
             this.müsteriad.Location = new System.Drawing.Point(133, 63);
             this.müsteriad.Name = "müsteriad";
-            this.müsteriad.Size = new System.Drawing.Size(231, 23);
+            this.müsteriad.Size = new System.Drawing.Size(213, 23);
             this.müsteriad.TabIndex = 18;
             // 
             // label1
@@ -103,7 +103,7 @@
             this.BtnEkle.ForeColor = System.Drawing.Color.White;
             this.BtnEkle.Location = new System.Drawing.Point(133, 364);
             this.BtnEkle.Name = "BtnEkle";
-            this.BtnEkle.Size = new System.Drawing.Size(231, 59);
+            this.BtnEkle.Size = new System.Drawing.Size(213, 59);
             this.BtnEkle.TabIndex = 17;
             this.BtnEkle.Text = "Müşteri Kaydet";
             this.BtnEkle.UseVisualStyleBackColor = false;
@@ -117,7 +117,7 @@
             this.tel2.ForeColor = System.Drawing.Color.Orange;
             this.tel2.Location = new System.Drawing.Point(133, 176);
             this.tel2.Name = "tel2";
-            this.tel2.Size = new System.Drawing.Size(231, 23);
+            this.tel2.Size = new System.Drawing.Size(213, 23);
             this.tel2.TabIndex = 26;
             // 
             // label2
@@ -152,7 +152,7 @@
             this.müsterisoyad.ForeColor = System.Drawing.Color.Orange;
             this.müsterisoyad.Location = new System.Drawing.Point(133, 102);
             this.müsterisoyad.Name = "müsterisoyad";
-            this.müsterisoyad.Size = new System.Drawing.Size(231, 23);
+            this.müsterisoyad.Size = new System.Drawing.Size(213, 23);
             this.müsterisoyad.TabIndex = 30;
             // 
             // textBox1
@@ -163,7 +163,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.Orange;
             this.textBox1.Location = new System.Drawing.Point(133, 25);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(231, 23);
+            this.textBox1.Size = new System.Drawing.Size(213, 23);
             this.textBox1.TabIndex = 27;
             // 
             // textBox2
@@ -174,7 +174,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.Orange;
             this.textBox2.Location = new System.Drawing.Point(133, 216);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(231, 23);
+            this.textBox2.Size = new System.Drawing.Size(213, 23);
             this.textBox2.TabIndex = 28;
             // 
             // tel1
@@ -185,7 +185,7 @@
             this.tel1.ForeColor = System.Drawing.Color.Orange;
             this.tel1.Location = new System.Drawing.Point(133, 142);
             this.tel1.Name = "tel1";
-            this.tel1.Size = new System.Drawing.Size(231, 23);
+            this.tel1.Size = new System.Drawing.Size(213, 23);
             this.tel1.TabIndex = 29;
             // 
             // label6
@@ -246,9 +246,9 @@
             this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.Color.Orange;
-            this.groupBox1.Location = new System.Drawing.Point(4, 12);
+            this.groupBox1.Location = new System.Drawing.Point(22, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(461, 456);
+            this.groupBox1.Size = new System.Drawing.Size(443, 456);
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Müsteri Kaydı";

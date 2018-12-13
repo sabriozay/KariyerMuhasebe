@@ -74,7 +74,12 @@ namespace MuhabeIT_Destop.UC
            
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void Calisan_Load(object sender, EventArgs e)
+        {
+           
+        }
+   
+        private void button1_Click(object sender, EventArgs e)
         {
             CalisanModel isci = new CalisanModel();
             isci.Ad = adtxt.Text;
@@ -85,14 +90,14 @@ namespace MuhabeIT_Destop.UC
             isci.Gsm = teltxt.Text;
             isci.TC = tctxt.Text;
             isci.Adres = adrstxt.Text;
-            if (isci.Ad !="" && isci.Soyad !="" && isci.Departman !="" && isci.Yetki !="" && isci.Maas !="" && isci.Gsm !="" && isci.TC !="" && isci.Adres !="")
+            if (isci.Ad != "" && isci.Soyad != "" && isci.Departman != "" && isci.Yetki != "" && isci.Maas != "" && isci.Gsm != "" && isci.TC != "" && isci.Adres != "")
             {
-                int gelen = db.cmd("insert into Calisan (Ad,Soyadi,Departman,Yetki,Maas,Gsm,TC,Adres) Values ('" + isci.Ad + "','" +isci.Soyad+"','" +isci.Departman+"','"+isci.Yetki+"','"+isci.Maas+"','"+isci.Gsm+"','"+isci.TC+"','"+isci.Adres+"')");
+                int gelen = db.cmd("insert into Calisan (Ad,Soyadi,Departman,Yetki,Maas,Gsm,TC,Adres) Values ('" + isci.Ad + "','" + isci.Soyad + "','" + isci.Departman + "','" + isci.Yetki + "','" + isci.Maas + "','" + isci.Gsm + "','" + isci.TC + "','" + isci.Adres + "')");
                 if (gelen == 1)
                 {
                     MessageBox.Show("Personel Başarıyla Eklendi");
                     tabloyuGüncelle();
-                    
+
                 }
                 else
                 {
@@ -104,16 +109,6 @@ namespace MuhabeIT_Destop.UC
             {
                 MessageBox.Show("Lütfen Boş Alanları Doldurunuz");
             }
-        }
-
-        private void Calisan_Load(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
