@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.Ürnekle = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ürün Kayıt";
             // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.Color.Orange;
+            this.label7.Location = new System.Drawing.Point(541, 16);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(152, 23);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Ürün Kayıt Formu";
+            // 
             // Ürnekle
             // 
             this.Ürnekle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -84,6 +96,7 @@
             this.Ürnekle.TabIndex = 15;
             this.Ürnekle.Text = "Ürün Ekle";
             this.Ürnekle.UseVisualStyleBackColor = true;
+            this.Ürnekle.Click += new System.EventHandler(this.Ürnekle_Click_1);
             // 
             // textBox6
             // 
@@ -223,18 +236,6 @@
             this.label1.Size = new System.Drawing.Size(68, 18);
             this.label1.TabIndex = 8;
             this.label1.Text = "Ürün Adı:";
-            // 
-            // label7
-            // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.ForeColor = System.Drawing.Color.Orange;
-            this.label7.Location = new System.Drawing.Point(541, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(152, 23);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Ürün Kayıt Formu";
             // 
             // ÜrünEkle
             // 

@@ -22,6 +22,11 @@ namespace MuhabeIT_Destop.UC
         {
          
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

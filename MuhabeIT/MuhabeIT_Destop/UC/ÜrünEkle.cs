@@ -23,36 +23,6 @@ namespace MuhabeIT_Destop.UC
         {
             InitializeComponent();
         }
-
-        private void Ürnekle_Click(object sender, EventArgs e)
-        {
-            ürn.Ürün_Adi = textBox1.Text;
-            ürn.Ürün_Adeti = textBox2.Text;
-            ürn.Ürün_Birimi = textBox3.Text;
-            ürn.Ürün_Birim_Fiyat = textBox4.Text;
-            ürn.Ürün_SeriNo = textBox5.Text;
-            ürn.Aciklama = textBox6.Text;
-            if (ürn.Ürün_Adi != "" && ürn.Ürün_Adeti != "" && ürn.Ürün_Birimi != "" && ürn.Ürün_Birim_Fiyat != "" && ürn.Ürün_SeriNo != "" && ürn.Aciklama != "")
-            {
-                string sorgu = "Insert into Ürünler(Ürün_Adi,Ürün_Adeti,Ürün_Birimi,Ürün_Birim_Fiyat,Ürün_SeriNo,Aciklama)Values('" + ürn.Ürün_Adi+"','" + ürn.Ürün_Adeti + "','" + ürn.Ürün_Birimi + "','" + ürn.Ürün_Birim_Fiyat + "','" + ürn.Ürün_SeriNo + "','" + ürn.Aciklama +"')";
-                int gelen = db.cmd(sorgu);
-                if (gelen == 1)
-                {
-                    MessageBox.Show(ürn.Ürün_Adi + "Ürünü Kayıt Edildi");
-                }
-                else
-                {
-                    MessageBox.Show("Kayıt Başarısız Lütfen Bilgilerinizi Kontrol Edin");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Lütfen Alanları Boş Bırakmayınız..!");
-
-            }
-
-        }
-
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
@@ -111,6 +81,34 @@ namespace MuhabeIT_Destop.UC
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Ürnekle_Click_1(object sender, EventArgs e)
+        {
+            ürn.Ürün_Adi = textBox1.Text;
+            ürn.Ürün_Adeti = textBox2.Text;
+            ürn.Ürün_Birimi = textBox3.Text;
+            ürn.Ürün_Birim_Fiyat = textBox4.Text;
+            ürn.Ürün_SeriNo = textBox5.Text;
+            ürn.Aciklama = textBox6.Text;
+            if (ürn.Ürün_Adi != "" && ürn.Ürün_Adeti != "" && ürn.Ürün_Birimi != "" && ürn.Ürün_Birim_Fiyat != "" && ürn.Ürün_SeriNo != "" && ürn.Aciklama != "")
+            {
+                string sorgu = "Insert into Ürünler(Ürün_Adi,Ürün_Adeti,Ürün_Birimi,Ürün_Birim_Fiyat,Ürün_SeriNo,Aciklama)Values('" + ürn.Ürün_Adi + "','" + ürn.Ürün_Adeti + "','" + ürn.Ürün_Birimi + "','" + ürn.Ürün_Birim_Fiyat + "','" + ürn.Ürün_SeriNo + "','" + ürn.Aciklama + "')";
+                int gelen = db.cmd(sorgu);
+                if (gelen == 1)
+                {
+                    MessageBox.Show(ürn.Ürün_Adi + "Ürünü Kayıt Edildi");
+                }
+                else
+                {
+                    MessageBox.Show("Kayıt Başarısız Lütfen Bilgilerinizi Kontrol Edin");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Alanları Boş Bırakmayınız..!");
+
+            }
         }
     }
 }

@@ -19,15 +19,16 @@ namespace MuhabeIT_Destop.UC
         {
             InitializeComponent();
         }
-        
+        Müsteri mst = new Müsteri();
         DataTable tablo = new DataTable();
         VeriTabani db = new VeriTabani();
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            if (textBox1.Text !="")
+            
+            if (textBox1.Text != "")
             {
                 string bilgi = textBox1.Text;
-                string sorgu = ("SELECT * FROM Müsteri WHERE TC='" + textBox1.Text + "'");               
+                string sorgu = ("SELECT * FROM Müsteri WHERE TC='" + textBox1.Text + "'");
                 int gelen = db.cmd(sorgu);
                 if (gelen == 1)
                 {
@@ -44,9 +45,6 @@ namespace MuhabeIT_Destop.UC
             {
                 MessageBox.Show("Lütfen TC Kimlik Numarasını Kontrol Ediniz..!");
             }
-            
-           
-           
         }
     }
 }
