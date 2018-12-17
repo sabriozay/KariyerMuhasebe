@@ -39,7 +39,7 @@
             this.Müsteribttn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -207,12 +207,12 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Orange;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(184, 66);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1306, 510);
-            this.panel3.TabIndex = 6;
+            panel3.BackColor = System.Drawing.Color.Orange;
+            panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            panel3.Location = new System.Drawing.Point(184, 66);
+            panel3.Name = "panel3";
+            panel3.Size = new System.Drawing.Size(1306, 510);
+            panel3.TabIndex = 6;
             // 
             // AnaSayfa
             // 
@@ -220,7 +220,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1490, 637);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -245,10 +245,10 @@
         private System.Windows.Forms.Button Calisanbttn;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
-        public System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button Faturabttn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button mstrsorgula;
+        public static System.Windows.Forms.Panel panel3;
     }
 }

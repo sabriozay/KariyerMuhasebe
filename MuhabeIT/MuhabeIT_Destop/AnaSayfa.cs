@@ -28,8 +28,8 @@ using MuhabeIT_Destop.UC;
         private void button1_Click_1(object sender, EventArgs e)
         {
 
-            panelkoy(panel2,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
-            panelkoy(panel3,new MuhabeIT_Destop.UC.MüsteriEkle());
+            panelkoy(panel2, new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
+            panelkoy(panel3, new MuhabeIT_Destop.UC.MüsteriEkle());
 
             //panel3.Controls.Clear();
             //panel3.Controls.Add(Ekle);
@@ -59,17 +59,9 @@ using MuhabeIT_Destop.UC;
         }
         private void button2_Click_1(object sender, EventArgs e)
         {
-            //panelkoy(panel3,new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
+            panelkoy(panel2,new MuhabeIT_Destop.UCbaslik.ÜrünSecenek());
+            panelkoy(panel3, new MuhabeIT_Destop.UC.ÜrünEkle());
 
-            panel3.Controls.Clear();
-            panel3.Controls.Add(ürün);
-            ürün.Show();
-            ürün.Dock = DockStyle.Fill;
-            ürün.BringToFront();
-
-            //panel3.Controls.Clear();
-            //var ürüncontrol = new MuhabeIT_Destop.UC.ÜrünEkle();
-            //panel3.Controls.Add(ürüncontrol);
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -84,12 +76,14 @@ using MuhabeIT_Destop.UC;
 
         private void button4_Click(object sender, EventArgs e)
         {
-            panel3.Controls.Clear();
-            panel3.Controls.Add(isci);
-            isci.Show();
-            isci.Dock = DockStyle.Fill;
-            isci.BringToFront();
-           
+            panelkoy(panel2, new MuhabeIT_Destop.UCbaslik.CalisanSecenek());
+            panelkoy(panel3, new MuhabeIT_Destop.UC.Calisan());
+            //panel3.Controls.Clear();
+            //panel3.Controls.Add(isci);
+            //isci.Show();
+            //isci.Dock = DockStyle.Fill;
+            //isci.BringToFront();
+
         }
 
         private void AnaSayfa_FormClosed(object sender, FormClosedEventArgs e)

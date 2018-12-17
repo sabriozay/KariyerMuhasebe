@@ -9,5 +9,9 @@ namespace MuhabeIT_Destop.Classlar
    public class Degiskenler
     {
         public static int müsterimod;
+        public static int productcode;
+        public static int employecode;
+
+
     }
 }
