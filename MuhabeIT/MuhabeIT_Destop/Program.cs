@@ -16,7 +16,7 @@ namespace MuhabeIT_Destop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AnaSayfa());
+            Application.Run(new Loading());
         }
     }
 }

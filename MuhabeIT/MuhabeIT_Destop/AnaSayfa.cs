@@ -19,25 +19,18 @@ using MuhabeIT_Destop.UC;
         {
             InitializeComponent();
           
-
+           
         }
         MüsteriAra Ara = new MüsteriAra();
         MüsteriEkle Ekle = new MüsteriEkle();
         ÜrünEkle ürün = new ÜrünEkle();
         Calisan isci = new Calisan();
+        
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            panel2.Visible = true;
             panelkoy(panel2, new MuhabeIT_Destop.UCbaslik.MüsteriSecenek());
-            panelkoy(panel3, new MuhabeIT_Destop.UC.MüsteriEkle());
-
-            //panel3.Controls.Clear();
-            //panel3.Controls.Add(Ekle);
-            //Ekle.Show();
-            //Ekle.Dock = DockStyle.Fill;
-            //Ekle.BringToFront();
-
-            //  Eklemüsteri.ShowDialog();
+            panelkoy(panel3, new MuhabeIT_Destop.UC.MüsteriEkle());    
         }
        public void panelkoy(Panel IlkPanel,UserControl gelen)
         {
@@ -59,6 +52,7 @@ using MuhabeIT_Destop.UC;
         }
         private void button2_Click_1(object sender, EventArgs e)
         {
+            panel2.Visible = true;
             panelkoy(panel2,new MuhabeIT_Destop.UCbaslik.ÜrünSecenek());
             panelkoy(panel3, new MuhabeIT_Destop.UC.ÜrünEkle());
 
@@ -76,6 +70,7 @@ using MuhabeIT_Destop.UC;
 
         private void button4_Click(object sender, EventArgs e)
         {
+            panel2.Visible = true;
             panelkoy(panel2, new MuhabeIT_Destop.UCbaslik.CalisanSecenek());
             panelkoy(panel3, new MuhabeIT_Destop.UC.Calisan());
             //panel3.Controls.Clear();
@@ -93,6 +88,7 @@ using MuhabeIT_Destop.UC;
 
         private void button3_Click_1(object sender, EventArgs e)
         {
+            panel2.Visible = false;
             Fatura ftr = new Fatura();
             panel3.Controls.Clear();
             panel3.Controls.Add(ftr);
@@ -104,6 +100,7 @@ using MuhabeIT_Destop.UC;
       
         private void button2_Click(object sender, EventArgs e)
         {
+            panel2.Visible = false;
             panel3.Controls.Clear();
             panel3.Controls.Add(Ara);
             Ara.Show();
@@ -114,6 +111,6 @@ using MuhabeIT_Destop.UC;
         private void button1_Click_2(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+        } 
     }
 }

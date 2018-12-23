@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MuhabeIT_Destop.UC;
 using MuhabeIT_Destop.Classlar;
-
+using MuhabeIT_Destop.Formlar;
 namespace MuhabeIT_Destop.UCbaslik
 {
     public partial class ÜrünSecenek : UserControl
