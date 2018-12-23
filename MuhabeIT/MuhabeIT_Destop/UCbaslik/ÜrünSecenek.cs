@@ -32,7 +32,7 @@ namespace MuhabeIT_Destop.UCbaslik
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ekle.groupBox2.Visible = false;
+            ekle.groupBox2.Visible = true;
             Degiskenler.productcode = 2;
             MuhabeIT_Destop.AnaSayfa.panel3.Controls.Clear();
             ekle.dataGridView1.Visible = true;

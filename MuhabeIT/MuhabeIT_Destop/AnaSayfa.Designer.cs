@@ -98,7 +98,6 @@
             this.mstrsorgula.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.mstrsorgula.UseVisualStyleBackColor = false;
             this.mstrsorgula.Click += new System.EventHandler(this.button2_Click);
-          
             // 
             // label1
             // 
@@ -204,7 +203,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(184, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1184, 66);
+            this.panel2.Size = new System.Drawing.Size(1289, 66);
             this.panel2.TabIndex = 4;
             // 
             // panel3
@@ -216,7 +215,7 @@
             panel3.Controls.Add(this.panel5);
             panel3.Location = new System.Drawing.Point(184, 66);
             panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(1184, 584);
+            panel3.Size = new System.Drawing.Size(1289, 584);
             panel3.TabIndex = 6;
             // 
             // panel5
@@ -225,7 +224,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel5.Location = new System.Drawing.Point(0, 484);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1184, 100);
+            this.panel5.Size = new System.Drawing.Size(1289, 100);
             this.panel5.TabIndex = 0;
             // 
             // AnaSayfa
@@ -233,7 +232,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1368, 650);
+            this.ClientSize = new System.Drawing.Size(1473, 650);
             this.Controls.Add(panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

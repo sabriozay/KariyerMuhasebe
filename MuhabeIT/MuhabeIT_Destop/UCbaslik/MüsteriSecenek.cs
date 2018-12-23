@@ -42,7 +42,7 @@ namespace MuhabeIT_Destop.UCbaslik
             Degiskenler.müsterimod = 2;
             ekle.dataGridView1.Visible = true;
             MuhabeIT_Destop.AnaSayfa.panel3.Controls.Clear();
-            ekle.groupBox1.Visible = false;
+            ekle.groupBox1.Visible = true;
             MuhabeIT_Destop.AnaSayfa.panel3.Controls.Add(ekle);
             ekle.Dock = DockStyle.Fill;
             ekle.BringToFront();

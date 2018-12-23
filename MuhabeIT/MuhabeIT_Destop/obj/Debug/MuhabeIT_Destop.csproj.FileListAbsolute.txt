@@ -56,7 +56,6 @@ C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\D
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.pdb
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.exe
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\bin\Debug\MuhabeIT_Destop.pdb
-C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csprojResolveAssemblyReference.cache
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.AnaSayfa.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.Form1.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.MusteriEkle.resources
