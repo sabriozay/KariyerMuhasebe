@@ -40,8 +40,11 @@
             this.panel2 = new System.Windows.Forms.Panel();
             panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.nextbutton = new System.Windows.Forms.Button();
+            this.backbutton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             panel3.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -205,29 +208,53 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(184, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1289, 66);
+            this.panel2.Size = new System.Drawing.Size(1289, 63);
             this.panel2.TabIndex = 4;
             // 
             // panel3
             // 
-            panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             panel3.BackColor = System.Drawing.Color.White;
-            panel3.Controls.Add(this.panel5);
-           panel3.Location = new System.Drawing.Point(184, 66);
-           panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(1289, 584);
-            panel3.TabIndex = 6;
+           panel3.Controls.Add(this.panel5);
+            panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            panel3.Location = new System.Drawing.Point(184, 63);
+            panel3.Name = "panel3";
+            panel3.Size = new System.Drawing.Size(1289, 587);
+           panel3.TabIndex = 6;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Controls.Add(this.nextbutton);
+            this.panel5.Controls.Add(this.backbutton);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 484);
+            this.panel5.Location = new System.Drawing.Point(0, 510);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1289, 100);
+            this.panel5.Size = new System.Drawing.Size(1289, 77);
             this.panel5.TabIndex = 0;
+            // 
+            // nextbutton
+            // 
+            this.nextbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nextbutton.BackgroundImage")));
+            this.nextbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.nextbutton.FlatAppearance.BorderSize = 0;
+            this.nextbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nextbutton.Location = new System.Drawing.Point(188, 12);
+            this.nextbutton.Name = "nextbutton";
+            this.nextbutton.Size = new System.Drawing.Size(60, 58);
+            this.nextbutton.TabIndex = 3;
+            this.nextbutton.UseVisualStyleBackColor = true;
+            // 
+            // backbutton
+            // 
+            this.backbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("backbutton.BackgroundImage")));
+            this.backbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.backbutton.FlatAppearance.BorderSize = 0;
+            this.backbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backbutton.Location = new System.Drawing.Point(44, 12);
+            this.backbutton.Name = "backbutton";
+            this.backbutton.Size = new System.Drawing.Size(60, 58);
+            this.backbutton.TabIndex = 2;
+            this.backbutton.UseVisualStyleBackColor = true;
             // 
             // AnaSayfa
             // 
@@ -248,6 +275,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             panel3.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -263,6 +291,8 @@
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button mstrsorgula;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button nextbutton;
+        private System.Windows.Forms.Button backbutton;
         public static System.Windows.Forms.Panel panel3;
     }
 }

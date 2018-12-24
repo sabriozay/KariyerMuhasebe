@@ -15,6 +15,8 @@ using MuhabeIT_Destop.UC;
 {
     public partial class AnaSayfa : Form
     {
+        
+
         public AnaSayfa()
         {
             InitializeComponent();
@@ -57,12 +59,6 @@ using MuhabeIT_Destop.UC;
             panelkoy(panel3, new MuhabeIT_Destop.UC.ÜrünEkle());
 
         }
-        private void button3_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
         private void AnaSayfa_Load(object sender, EventArgs e)
         {
 
@@ -110,7 +106,12 @@ using MuhabeIT_Destop.UC;
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Programdan ÇIKMAK İSTEDİĞİNİZE EMİNMİSİNİZ ?", "UYARI!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else
+                MessageBox.Show("iyi Çalışmalar Dilerim...!");
         } 
     }
 }

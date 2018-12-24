@@ -55,9 +55,9 @@
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(248, 4);
+            this.groupBox1.Location = new System.Drawing.Point(106, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(829, 503);
+            this.groupBox1.Size = new System.Drawing.Size(960, 581);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Müşteri Sorgula";
@@ -68,7 +68,7 @@
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(161, 71);
+            this.groupBox2.Location = new System.Drawing.Point(225, 76);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(539, 84);
             this.groupBox2.TabIndex = 5;
@@ -111,7 +111,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(173, 34);
+            this.label2.Location = new System.Drawing.Point(237, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(382, 18);
             this.label2.TabIndex = 4;
@@ -129,7 +129,7 @@
             this.Telefon2,
             this.Gsm,
             this.TC});
-            this.dataGridView1.Location = new System.Drawing.Point(56, 161);
+            this.dataGridView1.Location = new System.Drawing.Point(120, 166);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(746, 324);
             this.dataGridView1.TabIndex = 3;
@@ -181,7 +181,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.groupBox1);
             this.Name = "MüsteriAra";
-            this.Size = new System.Drawing.Size(1310, 523);
+            this.Size = new System.Drawing.Size(1289, 584);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

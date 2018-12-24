@@ -60,7 +60,7 @@
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(228, 28);
+            this.label6.Location = new System.Drawing.Point(228, 73);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(15, 13);
             this.label6.TabIndex = 21;
@@ -89,9 +89,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(275, 28);
+            this.groupBox1.Location = new System.Drawing.Point(265, 48);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(334, 439);
+            this.groupBox1.Size = new System.Drawing.Size(334, 489);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Çalışan Kayıt";
@@ -106,7 +106,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(93, 348);
+            this.button1.Location = new System.Drawing.Point(93, 373);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(192, 58);
             this.button1.TabIndex = 37;
@@ -119,7 +119,7 @@
             this.adrstxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.adrstxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.adrstxt.ForeColor = System.Drawing.Color.Orange;
-            this.adrstxt.Location = new System.Drawing.Point(93, 305);
+            this.adrstxt.Location = new System.Drawing.Point(93, 330);
             this.adrstxt.Name = "adrstxt";
             this.adrstxt.Size = new System.Drawing.Size(192, 26);
             this.adrstxt.TabIndex = 32;
@@ -131,7 +131,7 @@
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(39, 307);
+            this.label9.Location = new System.Drawing.Point(39, 332);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(49, 18);
             this.label9.TabIndex = 21;
@@ -142,7 +142,7 @@
             this.tctxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tctxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tctxt.ForeColor = System.Drawing.Color.Orange;
-            this.tctxt.Location = new System.Drawing.Point(93, 262);
+            this.tctxt.Location = new System.Drawing.Point(93, 287);
             this.tctxt.Name = "tctxt";
             this.tctxt.Size = new System.Drawing.Size(192, 26);
             this.tctxt.TabIndex = 31;
@@ -154,7 +154,7 @@
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(59, 262);
+            this.label8.Location = new System.Drawing.Point(59, 287);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(28, 18);
             this.label8.TabIndex = 22;
@@ -165,7 +165,7 @@
             this.teltxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.teltxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.teltxt.ForeColor = System.Drawing.Color.Orange;
-            this.teltxt.Location = new System.Drawing.Point(93, 222);
+            this.teltxt.Location = new System.Drawing.Point(93, 247);
             this.teltxt.Name = "teltxt";
             this.teltxt.Size = new System.Drawing.Size(192, 26);
             this.teltxt.TabIndex = 30;
@@ -177,7 +177,7 @@
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(48, 224);
+            this.label7.Location = new System.Drawing.Point(48, 249);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(39, 18);
             this.label7.TabIndex = 24;
@@ -188,7 +188,7 @@
             this.maastxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.maastxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.maastxt.ForeColor = System.Drawing.Color.Orange;
-            this.maastxt.Location = new System.Drawing.Point(93, 184);
+            this.maastxt.Location = new System.Drawing.Point(93, 209);
             this.maastxt.Name = "maastxt";
             this.maastxt.Size = new System.Drawing.Size(192, 26);
             this.maastxt.TabIndex = 29;
@@ -200,7 +200,7 @@
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(44, 186);
+            this.label5.Location = new System.Drawing.Point(44, 211);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 18);
             this.label5.TabIndex = 23;
@@ -211,7 +211,7 @@
             this.yetktxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.yetktxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.yetktxt.ForeColor = System.Drawing.Color.Orange;
-            this.yetktxt.Location = new System.Drawing.Point(93, 145);
+            this.yetktxt.Location = new System.Drawing.Point(93, 170);
             this.yetktxt.Name = "yetktxt";
             this.yetktxt.Size = new System.Drawing.Size(192, 26);
             this.yetktxt.TabIndex = 33;
@@ -223,7 +223,7 @@
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(44, 147);
+            this.label4.Location = new System.Drawing.Point(44, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 18);
             this.label4.TabIndex = 25;
@@ -234,7 +234,7 @@
             this.departtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.departtxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.departtxt.ForeColor = System.Drawing.Color.Orange;
-            this.departtxt.Location = new System.Drawing.Point(93, 104);
+            this.departtxt.Location = new System.Drawing.Point(93, 129);
             this.departtxt.Name = "departtxt";
             this.departtxt.Size = new System.Drawing.Size(192, 26);
             this.departtxt.TabIndex = 34;
@@ -246,7 +246,7 @@
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(7, 106);
+            this.label3.Location = new System.Drawing.Point(7, 131);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 18);
             this.label3.TabIndex = 26;
@@ -257,7 +257,7 @@
             this.sydtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.sydtxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sydtxt.ForeColor = System.Drawing.Color.Orange;
-            this.sydtxt.Location = new System.Drawing.Point(93, 67);
+            this.sydtxt.Location = new System.Drawing.Point(93, 92);
             this.sydtxt.Name = "sydtxt";
             this.sydtxt.Size = new System.Drawing.Size(192, 26);
             this.sydtxt.TabIndex = 35;
@@ -269,7 +269,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(39, 69);
+            this.label2.Location = new System.Drawing.Point(39, 94);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 18);
             this.label2.TabIndex = 27;
@@ -280,7 +280,7 @@
             this.adtxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.adtxt.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.adtxt.ForeColor = System.Drawing.Color.Orange;
-            this.adtxt.Location = new System.Drawing.Point(93, 31);
+            this.adtxt.Location = new System.Drawing.Point(93, 56);
             this.adtxt.Name = "adtxt";
             this.adtxt.Size = new System.Drawing.Size(192, 26);
             this.adtxt.TabIndex = 36;
@@ -292,7 +292,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(56, 33);
+            this.label1.Location = new System.Drawing.Point(56, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 18);
             this.label1.TabIndex = 28;
@@ -309,10 +309,10 @@
             this.Id,
             this.Ad,
             this.Soyad});
-            this.dataGridView1.Location = new System.Drawing.Point(723, 43);
+            this.dataGridView1.Location = new System.Drawing.Point(704, 48);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(346, 424);
+            this.dataGridView1.Size = new System.Drawing.Size(346, 489);
             this.dataGridView1.TabIndex = 39;
             // 
             // Id
@@ -342,7 +342,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label6);
             this.Name = "Calisan";
-            this.Size = new System.Drawing.Size(1308, 495);
+            this.Size = new System.Drawing.Size(1289, 584);
             this.Load += new System.EventHandler(this.Calisan_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

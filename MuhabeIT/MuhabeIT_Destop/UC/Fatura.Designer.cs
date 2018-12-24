@@ -80,9 +80,9 @@
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(36, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1308, 495);
+            this.groupBox1.Size = new System.Drawing.Size(1150, 570);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Fatura Yazdırma";
@@ -103,7 +103,7 @@
             this.groupBox4.Controls.Add(this.SeriNotxt);
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.ForeColor = System.Drawing.Color.Black;
-            this.groupBox4.Location = new System.Drawing.Point(251, 251);
+            this.groupBox4.Location = new System.Drawing.Point(172, 288);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(860, 123);
             this.groupBox4.TabIndex = 11;
@@ -234,7 +234,7 @@
             this.groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox3.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
-            this.groupBox3.Location = new System.Drawing.Point(822, 42);
+            this.groupBox3.Location = new System.Drawing.Point(743, 79);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(311, 186);
             this.groupBox3.TabIndex = 10;
@@ -297,7 +297,7 @@
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
-            this.groupBox2.Location = new System.Drawing.Point(461, 42);
+            this.groupBox2.Location = new System.Drawing.Point(382, 79);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(321, 186);
             this.groupBox2.TabIndex = 9;
@@ -360,7 +360,7 @@
             this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox5.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox5.ForeColor = System.Drawing.Color.Black;
-            this.groupBox5.Location = new System.Drawing.Point(91, 42);
+            this.groupBox5.Location = new System.Drawing.Point(12, 79);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(346, 188);
             this.groupBox5.TabIndex = 8;
@@ -426,7 +426,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(485, 392);
+            this.button4.Location = new System.Drawing.Point(406, 429);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(238, 48);
             this.button4.TabIndex = 7;
@@ -440,7 +440,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.groupBox1);
             this.Name = "Fatura";
-            this.Size = new System.Drawing.Size(1160, 457);
+            this.Size = new System.Drawing.Size(1289, 584);
             this.groupBox1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
