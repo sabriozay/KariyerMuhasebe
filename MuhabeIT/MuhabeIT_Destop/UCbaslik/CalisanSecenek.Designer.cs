@@ -44,7 +44,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(252, 20);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(43, 33);
+            this.button5.Size = new System.Drawing.Size(35, 29);
             this.button5.TabIndex = 19;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
@@ -57,7 +57,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(191, 20);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(43, 33);
+            this.button4.Size = new System.Drawing.Size(35, 29);
             this.button4.TabIndex = 18;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
@@ -70,7 +70,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(130, 20);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(43, 33);
+            this.button3.Size = new System.Drawing.Size(35, 29);
             this.button3.TabIndex = 17;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
@@ -84,7 +84,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(73, 20);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(43, 33);
+            this.button2.Size = new System.Drawing.Size(35, 29);
             this.button2.TabIndex = 16;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
@@ -98,7 +98,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.Location = new System.Drawing.Point(14, 20);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(43, 33);
+            this.button1.Size = new System.Drawing.Size(35, 29);
             this.button1.TabIndex = 15;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -113,7 +113,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Name = "CalisanSecenek";
-            this.Size = new System.Drawing.Size(1127, 83);
+            this.Size = new System.Drawing.Size(1127, 70);
             this.ResumeLayout(false);
 
         }

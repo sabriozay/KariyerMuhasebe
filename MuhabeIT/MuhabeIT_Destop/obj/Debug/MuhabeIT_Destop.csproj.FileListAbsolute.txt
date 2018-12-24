@@ -114,3 +114,4 @@ C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\
 C:\Users\PC\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.ÜrünSecenek.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.CalisanSecenek.resources
 C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.UCbaslik.ÜrünSecenek.resources
+C:\Users\WPS2000\Documents\GitHub\KariyerMuhasebe\MuhabeIT\MuhabeIT_Destop\obj\Debug\MuhabeIT_Destop.csprojResolveAssemblyReference.cache

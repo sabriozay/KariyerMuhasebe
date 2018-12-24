@@ -85,6 +85,8 @@
             this.mstrsorgula.Dock = System.Windows.Forms.DockStyle.Top;
             this.mstrsorgula.FlatAppearance.BorderColor = System.Drawing.Color.Orange;
             this.mstrsorgula.FlatAppearance.BorderSize = 3;
+            this.mstrsorgula.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.mstrsorgula.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue;
             this.mstrsorgula.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.mstrsorgula.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.mstrsorgula.ForeColor = System.Drawing.Color.Black;
@@ -213,8 +215,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             panel3.BackColor = System.Drawing.Color.White;
             panel3.Controls.Add(this.panel5);
-            panel3.Location = new System.Drawing.Point(184, 66);
-            panel3.Name = "panel3";
+           panel3.Location = new System.Drawing.Point(184, 66);
+           panel3.Name = "panel3";
             panel3.Size = new System.Drawing.Size(1289, 584);
             panel3.TabIndex = 6;
             // 
