@@ -104,7 +104,5 @@ namespace MuhabeIT_Destop.Database
             return veri;
         }
 
-
-
     }
 }
